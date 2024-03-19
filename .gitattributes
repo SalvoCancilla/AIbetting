@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+core/data/AI_Betting.db filter=lfs diff=lfs merge=lfs -text
+venv/Lib/site-packages/xgboost/lib/xgboost.dll filter=lfs diff=lfs merge=lfs -text
