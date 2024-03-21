@@ -10,46 +10,17 @@ api_key = os.getenv("RAPIDAPI_KEY")
 api_host = os.getenv("RAPIDAPI_HOST")
 
 
-class GetHistoricData:
-    """
-    A class to retrieve and manage historic data.
-
-    Attributes:
-        season (str): The season for which the data is retrieved.
-        max_api_calls (int): The maximum number of API calls allowed.
-        db_path (str): The path to the database file.
-        json_path (str): The path to the JSON files directory.
-        api_call_count (int): The number of API calls made.
-
-    Methods:
-        _make_api_call(url): Makes an API call to the specified URL.
-        _save_json_data(data, filename): Saves the JSON data to a file.
-        _update_json_data(data, filename): Updates the existing JSON data in a file.
-        _load_existing_json_data(filename): Loads the existing JSON data from a file.
-        _check_api_limit(): Checks if the maximum API call limit has been reached.
-        _get_api_data(url, filename): Retrieves the API data and saves it to a JSON file.
-        get_countries_info(): Retrieves the countries information.
-        get_venues_info(): Retrieves the venues information.
-
-    """
-
-    def __init__(self, season, max_api_calls=100):
-        self.db_path = "C:/Users/Lavoro/Desktop/AIBetting/core/data/Ai_Betting.db"
-        self.json_path = "C:/Users/Lavoro/Desktop/AIBetting/core/data/json_files"
-        self.season = season
-        self.max_api_calls = max_api_calls
-        self.api_call_count = 0
 
 
 
 class GetHistoricData:
     def __init__(self, season, max_api_calls=100):
         """
-        Initializes an instance of the GetData class.
+        A class to retrieve and manage historic data.
 
         Parameters:
         - season (str): The season for which data is being retrieved.
-        - max_api_calls (int, optional): The maximum number of API calls allowed. Default is 1000.
+        - max_api_calls (int, optional): The maximum number of API calls allowed. Default is 100.
 
         Attributes:
         - db_path (str): The path to the database file.
@@ -70,7 +41,15 @@ class GetHistoricData:
     def _make_api_call(self, url):
         """
         Makes an API call to the specified URL and returns the response in JSON format.
-
+        1- Set the headers for the API call.
+        2- Make the API call using the requests library.
+        3- Check for any exceptions during the API call.
+        4- Return the response in JSON format.
+        5- Increment the API call count.
+        6- Print the number of API calls made.
+        7- Return the response in JSON format if the API call is successful and print a succesfull message.
+        8- Return None if the API call fails with an exception and print an error message.
+        
         Args:
             url (str): The URL to make the API call to.
 
@@ -84,7 +63,7 @@ class GetHistoricData:
         headers = {'x-rapidapi-key': api_key, 'x-rapidapi-host': api_host}
         try:
             response = requests.get(url, headers=headers)
-            response.raise_for_status()  # Raises exception for 4XX and 5XX status codes
+            response.raise_for_status() 
             print(f"API call done for {url}")
             self.api_call_count += 1
             print(f"Number of API calls done: {self.api_call_count}")
@@ -99,6 +78,9 @@ class GetHistoricData:
     def _save_json_data(self, data, filename):
         """
         Save the given data as a JSON file.
+        1- Create the file path for the JSON file.
+        2- Create the directory if it doesn't exist.
+        3- Save the data as a JSON file.
 
         Args:
             data (dict): The data to be saved as JSON.
@@ -119,6 +101,9 @@ class GetHistoricData:
     def _update_json_data(self, data, filename):
         """
         Updates the existing JSON data with new data and saves it to a file.
+        1- Load the existing JSON data from the file.
+        2- If the file exists, update the existing data with the new data.
+        3- If the file doesn't exist, save the new data to the file.
 
         Args:
             data (dict): The new data to be added to the existing JSON data.
@@ -143,6 +128,9 @@ class GetHistoricData:
     def _load_existing_json_data(self, filename):
         """
         Load existing JSON data from a file.
+        - Create the file path for the JSON file.
+        - Try to open the file and load the JSON data.
+        - Return the loaded JSON data as a dictionary, or None if the file is not found.
 
         Args:
             filename (str): The name of the file to load the JSON data from.
@@ -163,6 +151,7 @@ class GetHistoricData:
     def _check_api_limit(self):
         """
         Checks if the API call count has reached the maximum limit. 
+        - If the API call count is greater than or equal to the maximum limit, print a message and return True.
 
         Returns:
             bool: True if the API call count has reached the maximum limit, False otherwise.
@@ -178,6 +167,11 @@ class GetHistoricData:
     def _get_api_data(self, url, filename):
         """
         Retrieves data from an API endpoint and saves it as a JSON file.
+        1- Check if the API call limit has been reached.
+        2- Check if the JSON file already exists.
+        3- If the JSON file doesn't exist, save the data.
+        4- If the JSON file exists, update the data.
+        5- Return the JSON data retrieved from the API.
 
         Args:
             url (str): The URL of the API endpoint.
@@ -211,6 +205,8 @@ class GetHistoricData:
     def get_countries_info(self):
         """
         Retrieves information about countries from an API.
+        1- Set the URL for the API call.
+        2- Make the API call to get the data.
 
         Returns:
             None
@@ -223,6 +219,10 @@ class GetHistoricData:
     def get_venues_info(self):
         """
         Retrieves information about venues from the API for each country in the database.
+        1- Connect to the database and get the list of countries.
+        2- For each country, make an API call to get the venues data in that country.
+        3- Save the venues data as a JSON file.
+        4- Return the list of venues data for each country.        
 
         Returns:
             list: A list of venue data for each country.

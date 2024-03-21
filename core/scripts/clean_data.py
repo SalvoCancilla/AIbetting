@@ -23,7 +23,7 @@ class CleanData:
             df_countries (pandas.DataFrame): The dataframe containing countries info.
 
         Returns:
-            pandas.DataFrame: The cleaned dataframe with columns renamed and prefixed with 'country_'.
+            pandas.DataFrame: The cleaned dataframe.
 
         """
         df_countries.columns = ['country_' + col for col in df_countries.columns] # Add prefix 'country_' for each column
@@ -40,7 +40,7 @@ class CleanData:
             df_venues (pandas.DataFrame): The dataframe containing venues info.
 
         Returns:
-            pandas.DataFrame: The cleaned dataframe with columns renamed and 'venue_address' column dropped.
+            pandas.DataFrame: The cleaned dataframe.
 
         """
         df_venues.columns = ['venue_' + col for col in df_venues.columns] # Add prefix 'venue_' for each column

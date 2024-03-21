@@ -20,9 +20,14 @@ class SaveDataToDB:
     def countries_info_to_db(self, df_countries):
         """
         Saves the countries information DataFrame to the 'countries_info' table in the database.
+        1- Connect to the database.
+        2- Check if the table exists.
+        3- If the table does not exist, create it and save the data.
+        4- If the table exists, append the new data to it.
+        5- Close the connection.
 
         Args:
-            df_countries (pandas.DataFrame): The DataFrame containing the countries information.
+            df_countries (pandas.DataFrame): The DataFrame containing the cleaned countries information.
 
         Returns:
             None
@@ -47,6 +52,11 @@ class SaveDataToDB:
     def venues_info_to_db(self, df_venues):
         """
         Saves the venues information DataFrame to the 'venues_info' table in the database.
+        1- Connect to the database.
+        2- Check if the table exists.
+        3- If the table does not exist, create it and save the data.
+        4- If the table exists, append the new data to it.
+        5- Close the connection.
 
         Args:
             df_venues (pandas.DataFrame): The DataFrame containing the venues information.
