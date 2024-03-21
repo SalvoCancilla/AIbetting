@@ -186,13 +186,13 @@ class GetHistoricData:
         """
         if not self._check_api_limit():
             if not os.path.exists(os.path.join(self.json_path, self.season, filename)):
-                # The JSON file doesn't exist, so we save it
+                # The JSON file doesn't exist, save it
                 json_data = self._make_api_call(url)
                 if json_data:
                     self._save_json_data(json_data, filename)
                     return json_data
             else:
-                # The JSON file already exists, so we update it
+                # The JSON file already exists, update it
                 json_data = self._make_api_call(url)
                 if json_data:
                     self._update_json_data(json_data, filename)
