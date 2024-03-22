@@ -13,7 +13,7 @@ class SaveDataToDB:
         """
         Initializes the SaveDataToDB object.
         """
-        self.db_path = "C:/Users/Lavoro/Desktop/AIBetting/core/data/Ai_Betting.db"
+        self.db_path = "C:/Users/Lavoro/Desktop/AIBetting/AIbetting/core/data/Ai_Betting.db"
 
 
 

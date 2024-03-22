@@ -24,11 +24,11 @@ class NormData:
     """
 
     def __init__(self, season):
-        self.json_path = f"C:/Users/Lavoro/Desktop/AIBetting/core/data/json_files/{season}"
+        self.json_path = f"C:/Users/Lavoro/Desktop/AIBetting/AIbetting/core/data/json_files/{season}"
 
 
 
-    def norm_countries_info(self):
+    def norm_countries_info(self, json_countries):
         """
         Normalize the countries information from the JSON file.
         1- Load the JSON file containing the countries information.
@@ -38,16 +38,14 @@ class NormData:
         Returns:
             DataFrame: A pandas DataFrame containing the normalized countries information.
         """
-        with open(os.path.join(self.json_path, "countries.json"), "r") as infile:
-            countries_data = json.load(infile)
-            normalized_data = json_normalize(countries_data["response"])
-            print("Data normalized for: countries info")
-            df_countries = pd.DataFrame(normalized_data)
-            return df_countries
+        normalized_data = json_normalize(json_countries["response"])
+        print("Data normalized for: countries info")
+        df_countries = pd.DataFrame(normalized_data)
+        return df_countries
 
 
 
-    def norm_venues_info(self):
+    def norm_venues_info(self, json_venues):
         """
         Normalize the venues information from the JSON file.
         1- Load the JSON file containing the venues information.
@@ -57,9 +55,7 @@ class NormData:
         Returns:
             DataFrame: A pandas DataFrame containing the normalized venues information.
         """
-        with open(os.path.join(self.json_path, "venues.json"), "r") as infile:
-            venues_data = json.load(infile)
-            normalized_data = json_normalize(venues_data["response"])
-            print("Data normalized for: venues info")
-            df_venues = pd.DataFrame(normalized_data)
-            return df_venues
+        normalized_data = json_normalize(json_venues["response"])
+        print("Data normalized for: venues info")
+        df_venues = pd.DataFrame(normalized_data)
+        return df_venues
