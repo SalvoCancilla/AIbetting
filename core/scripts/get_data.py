@@ -114,7 +114,7 @@ class GetHistoricData:
 
 
 
-    def get_venues_info(self):
+    def get_venues_info(self, country_id):
         """
         Retrieves information about venues from the API for each country in the database.
         1- Connect to the database and get the list of countries.
@@ -125,7 +125,7 @@ class GetHistoricData:
         Returns:
             list: A list of venue data for each country.
         """
-        url = f"https://api-football-v1.p.rapidapi.com/v3/venues?country={country}"
+        url = f"https://api-football-v1.p.rapidapi.com/v3/venues?country={country_id}"
         response = self.make_api_call(url)
         json_venues = response
         return json_venues

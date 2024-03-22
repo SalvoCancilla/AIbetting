@@ -27,6 +27,7 @@ class CleanData:
 
         """
         df_countries.columns = ['country_' + col for col in df_countries.columns] # Add prefix 'country_' for each column
+        df_countries = df_countries.sort_values(by=['country_name'], ascending=True) # order ascending by country_name
         print("Columns cleaned for: countries info")
         return df_countries
     
