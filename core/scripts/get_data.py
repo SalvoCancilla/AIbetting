@@ -90,6 +90,24 @@ class GetHistoricData:
 
 
 
+    def save_json(self, json_data, file_name):
+        """
+        Saves the JSON data to a file in the specified directory.
+        
+        Args:
+            json_data (dict): The JSON data to be saved.
+            file_name (str): The name of the file to save the JSON data to.
+        
+        Returns:
+            None
+        """
+        file_path = os.path.join(self.json_path, self.season, file_name)
+        # Create the directory if it does not exist
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'w') as file:
+            json.dump(json_data, file, indent=4)
+        print(f"JSON data saved to file: {file_name}")
+
 
 
 
@@ -99,14 +117,6 @@ class GetHistoricData:
                 
 
     def get_countries_info(self):
-        """
-        Retrieves information about countries from an API.
-        1- Set the URL for the API call.
-        2- Make the API call to get the data.
-
-        Returns:
-            None
-        """
         url = "https://api-football-v1.p.rapidapi.com/v3/countries"
         response = self.make_api_call(url)
         json_countries = response
@@ -115,21 +125,26 @@ class GetHistoricData:
 
 
     def get_venues_info(self, country_id):
-        """
-        Retrieves information about venues from the API for each country in the database.
-        1- Connect to the database and get the list of countries.
-        2- For each country, make an API call to get the venues data in that country.
-        3- Save the venues data as a JSON file.
-        4- Return the list of venues data for each country.        
-
-        Returns:
-            list: A list of venue data for each country.
-        """
         url = f"https://api-football-v1.p.rapidapi.com/v3/venues?country={country_id}"
         response = self.make_api_call(url)
         json_venues = response
         return json_venues
+    
+    
+    
+    def get_leagues_info(self, country_id):
+        url = f"https://api-football-v1.p.rapidapi.com/v3/leagues/?season={self.season}&country={country_id}"
+        response = self.make_api_call(url)
+        json_leagues = response
+        return json_leagues
         
+        
+    
+    def get_teams_info(self, country_id):
+        url = f"https://api-football-v1.p.rapidapi.com/v3/teams?country={country_id}"
+        response = self.make_api_call(url)
+        json_teams = response
+        return json_teams
 
 
 

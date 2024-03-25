@@ -28,6 +28,7 @@ class NormData:
 
 
 
+
     def norm_countries_info(self, json_countries):
         """
         Normalize the countries information from the JSON file.
@@ -45,6 +46,7 @@ class NormData:
 
 
 
+
     def norm_venues_info(self, json_venues):
         """
         Normalize the venues information from the JSON file.
@@ -55,7 +57,42 @@ class NormData:
         Returns:
             DataFrame: A pandas DataFrame containing the normalized venues information.
         """
-        normalized_data = json_normalize(json_venues["response"])
+        normalized_data = json_normalize(json_venues["response"], sep='_')
         print("Data normalized for: venues info")
         df_venues = pd.DataFrame(normalized_data)
         return df_venues
+    
+    
+    
+    
+    def norm_leagues_info(self, json_leagues):
+        """
+        Normalize the seasons information from the JSON file.
+        1- Load the JSON file containing the seasons information.
+        2- Normalize the JSON nested informations.
+        3- Create a pandas DataFrame from the normalized data.
+
+        Returns:
+            DataFrame: A pandas DataFrame containing the normalized seasons information.
+        """
+        normalized_data = json_normalize(json_leagues["response"])
+        print("Data normalized for: seasons info")
+        df_leagues = pd.DataFrame(normalized_data)
+        return df_leagues
+    
+    
+    
+    def norm_teams_info(self, json_teams):
+        """
+        Normalize the teams information from the JSON file.
+        1- Load the JSON file containing the teams information.
+        2- Normalize the JSON nested informations.
+        3- Create a pandas DataFrame from the normalized data.
+
+        Returns:
+            DataFrame: A pandas DataFrame containing the normalized teams information.
+        """
+        normalized_data = json_normalize(json_teams["response"], sep='_')
+        print("Data normalized for: teams info")
+        df_teams = pd.DataFrame(normalized_data)
+        return df_teams
