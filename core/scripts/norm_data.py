@@ -96,3 +96,34 @@ class NormData:
         print("Data normalized for: teams info")
         df_teams = pd.DataFrame(normalized_data)
         return df_teams
+    
+    
+    
+    def norm_players_info(self, json_players):
+        """
+        Normalize the players information from the JSON file.
+        1- Load the JSON file containing the players information.
+        2- Normalize the JSON nested informations.
+        3- Create a pandas DataFrame from the normalized data.
+
+        Returns:
+            DataFrame: A pandas DataFrame containing the normalized players information.
+        """
+        df_players = pd.json_normalize(json_players, 'response', sep='_') # Extract the response data       
+        print("Data normalized for: players info")
+        return df_players
+    
+    
+    def norm_matches_info(self, json_matches):
+        """
+        Normalize the matches information from the JSON file.
+        1- Load the JSON file containing the matches information.
+        2- Normalize the JSON nested informations.
+        3- Create a pandas DataFrame from the normalized data.
+
+        Returns:
+            DataFrame: A pandas DataFrame containing the normalized matches information.
+        """
+        df_matches = pd.json_normalize(json_matches, 'response', sep='_') # Extract the response data
+        print("Data normalized for: matches info")
+        return df_matches

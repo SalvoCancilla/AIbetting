@@ -255,6 +255,7 @@ class NormalizeJsonData:
             # Fill nan values in home_team_winner and away_team_winner with 0 beacuse it means a draw
             df_match['home_team_winner'].fillna(0, inplace=True)    
             df_match['away_team_winner'].fillna(0, inplace=True)
+            
        
             # Correct datatype
             for col in df_match.columns:

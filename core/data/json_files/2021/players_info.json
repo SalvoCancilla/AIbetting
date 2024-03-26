@@ -1,0 +1,2507 @@
+{
+    "get": "players",
+    "parameters": {
+        "season": "2021",
+        "team": "3317"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+        "current": 1,
+        "total": 2
+    },
+    "response": [
+        {
+            "player": {
+                "id": 3740,
+                "name": "Olsi Gocaj",
+                "firstname": "Olsi",
+                "lastname": "Gocaj",
+                "age": 35,
+                "birth": {
+                    "date": "1988-09-30",
+                    "place": "Shkod\u00ebr",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3740.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 5,
+                        "lineups": 5,
+                        "minutes": 480,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 3900,
+                "name": "Shp\u00ebtim Mo\u00e7ka",
+                "firstname": "Shp\u00ebtim",
+                "lastname": "Mo\u00e7ka",
+                "age": 33,
+                "birth": {
+                    "date": "1989-10-20",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3900.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 2,
+                        "minutes": 210,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 4
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 3946,
+                "name": "Alked \u00c7elhaka",
+                "firstname": "Alked",
+                "lastname": "\u00c7elhaka",
+                "age": 28,
+                "birth": {
+                    "date": "1994-08-07",
+                    "place": "Kavaj\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3946.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 4,
+                        "lineups": 4,
+                        "minutes": 298,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 3,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 4303,
+                "name": "Alaidin Sallaku",
+                "firstname": "Alaidin",
+                "lastname": "Sallaku",
+                "age": 27,
+                "birth": {
+                    "date": "1995-02-04",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/4303.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 0,
+                        "minutes": 40,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 0,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 136472,
+                "name": "Arbion Balilaj",
+                "firstname": "Arbion",
+                "lastname": "Balilaj",
+                "age": 22,
+                "birth": {
+                    "date": "2000-07-27",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/136472.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 147965,
+                "name": "Altjon Kadriaj",
+                "firstname": "Altjon",
+                "lastname": "Kadriaj",
+                "age": 20,
+                "birth": {
+                    "date": "2002-05-05",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/147965.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 196729,
+                "name": "R. Mukoj",
+                "firstname": "Reinaldo",
+                "lastname": "Mukoj",
+                "age": 23,
+                "birth": {
+                    "date": "2001-09-05",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/196729.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 6,
+                        "lineups": 4,
+                        "minutes": 320,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 4,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 707,
+                        "name": "Cup",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/707.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 6,
+                        "lineups": 4,
+                        "minutes": 320,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 4,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 263334,
+                "name": "Ledjon Qelaj",
+                "firstname": "Ledjon",
+                "lastname": "Qelaj",
+                "age": 21,
+                "birth": {
+                    "date": "2001-11-05",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/263334.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 290527,
+                "name": "Memo Dhrami",
+                "firstname": "Memo",
+                "lastname": "Dhrami",
+                "age": 18,
+                "birth": {
+                    "date": "2004-05-15",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/290527.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 292410,
+                "name": "Deivi \u00c7ipi",
+                "firstname": "Deivi",
+                "lastname": "\u00c7ipi",
+                "age": 17,
+                "birth": {
+                    "date": "2005-01-09",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/292410.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 293242,
+                "name": "Besjan Zanaj",
+                "firstname": "Besjan",
+                "lastname": "Zanaj",
+                "age": 18,
+                "birth": {
+                    "date": "2004-05-29",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/293242.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 293243,
+                "name": "Baftjar Fakaj",
+                "firstname": "Baftjar",
+                "lastname": "Fakaj",
+                "age": 20,
+                "birth": {
+                    "date": "2002-03-02",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/293243.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 293245,
+                "name": "Dhimit\u00ebr Goxhaj",
+                "firstname": "Dhimit\u00ebr",
+                "lastname": "Goxhaj",
+                "age": 19,
+                "birth": {
+                    "date": "2003-08-18",
+                    "place": "Athens",
+                    "country": "Greece"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/293245.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 302084,
+                "name": "Arielo Gegaj",
+                "firstname": "Arielo",
+                "lastname": "Gegaj",
+                "age": 19,
+                "birth": {
+                    "date": "2003-08-26",
+                    "place": "Argostolion",
+                    "country": "Greece"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/302084.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 0,
+                        "minutes": 18,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 313731,
+                "name": "Ferit Dule",
+                "firstname": "Ferit",
+                "lastname": "Dule",
+                "age": 20,
+                "birth": {
+                    "date": "2002-02-10",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/313731.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 315671,
+                "name": "Leon Hoxhaj",
+                "firstname": "Leon",
+                "lastname": "Hoxhaj",
+                "age": 18,
+                "birth": {
+                    "date": "2004-09-30",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/315671.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 315672,
+                "name": "Gazmen Halilaj",
+                "firstname": "Gazmen",
+                "lastname": "Halilaj",
+                "age": 18,
+                "birth": {
+                    "date": "2004-01-11",
+                    "place": null,
+                    "country": "Greece"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/315672.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 315673,
+                "name": "Kevin Hasani",
+                "firstname": "Kevin",
+                "lastname": "Hasani",
+                "age": 19,
+                "birth": {
+                    "date": "2003-09-22",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/315673.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 344897,
+                "name": "Clebson",
+                "firstname": "Clebson",
+                "lastname": "Freitas de Souza",
+                "age": 21,
+                "birth": {
+                    "date": "2003-01-19",
+                    "place": "Natal",
+                    "country": "Brazil"
+                },
+                "nationality": "Brazil",
+                "height": "175 cm",
+                "weight": "71 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/344897.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 707,
+                        "name": "Cup",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/707.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 344898,
+                "name": "Dario Sinaj",
+                "firstname": "Dario",
+                "lastname": "Sinaj",
+                "age": 17,
+                "birth": {
+                    "date": "2005-03-01",
+                    "place": "Vlor\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/344898.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": 513,
+                        "name": "2nd Division - Group B",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/513.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3317,
+                        "name": "Flamurtari",
+                        "logo": "https://media.api-sports.io/football/teams/3317.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2021-2022"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}

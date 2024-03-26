@@ -37,6 +37,21 @@ class GetHistoricData:
 
 
     
+    def date_range(self):
+        """
+        Create a series of dates form start to end of the 2020 year
+        Args:
+            season (str): The season for which data is being retrieved.
+        Returns:
+            pd.Series: A series of dates form start to end of the 2020 year
+        """
+        dates = pd.date_range(start=f"{self.season}-01-01", end=f"{self.season}-12-31", freq="D").to_frame(index=False, name="date") #Create a series of dates form start to end of the 2020 year
+        dates['date'] = pd.to_datetime(dates['date']).dt.date # Covert the date in datetime format
+        return dates
+    
+    
+    
+    
     def _check_api_limit(self):
         """
         Checks if the API call count has reached the maximum limit. 
@@ -145,7 +160,20 @@ class GetHistoricData:
         response = self.make_api_call(url)
         json_teams = response
         return json_teams
+    
+    
+    def get_players_info(self, team_id):
+        url = f"https://api-football-v1.p.rapidapi.com/v3/players?season={self.season}&team={team_id}"
+        response = self.make_api_call(url)
+        json_players = response
+        return json_players
 
+
+    def get_matches_info(self, date): 
+        url = f"https://api-football-v1.p.rapidapi.com/v3/fixtures?date={date}"
+        response = self.make_api_call(url)
+        json_matches = response
+        return json_matches
 
 
 

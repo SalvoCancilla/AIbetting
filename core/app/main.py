@@ -31,6 +31,7 @@ def main():
     norm = NormData("2021")
     clean = CleanData()
     save = SaveDataToDB()
+
     
     
     """
@@ -62,6 +63,7 @@ def main():
     """
     
     
+    
     """
     # Leagues info
     conn = sqlite3.connect(db_path) # Connect to the database
@@ -81,6 +83,8 @@ def main():
         save.leagues_info_to_db(df_leagues_clean)
     """
     
+    
+    """
     # Teams info
     conn = sqlite3.connect(db_path) # Connect to the database
     countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn) # Get the list of leagues   
@@ -93,14 +97,63 @@ def main():
         
         if json_teams["results"] == 0:
             continue 
-        get.save_json(json_teams, "teams_info.json")
-        print(json_teams)
         df_teams = norm.norm_teams_info(json_teams)
-        print(df_teams)
         df_teams_clean = clean.clean_teams_info(df_teams)
-        print(df_teams_clean)
         save.teams_info_to_db(df_teams_clean)
+    """
     
+    
+    """
+    # Players info
+    conn = sqlite3.connect(db_path) # Connect to the database
+    teams = pd.read_sql_query("SELECT DISTINCT team_id FROM teams_info", conn) # Get the list of teams
+    conn.close()
+    
+    for team_id in teams['team_id']:
+        if get._check_api_limit():
+            break
+        
+        json_players = get.get_players_info(team_id)
+        print(json_players)
+        if json_players["results"] == 0:
+            continue
+        
+        get.save_json(json_players, "players_info.json")
+        
+        df_players = norm.norm_players_info(json_players)
+        print(df_players)
+        
+        df_players_clean = clean.clean_players_info(df_players)
+        print(df_players_clean)
+        
+        save.players_info_to_db(df_players_clean)
+    """
+    
+    
+    # Matches info  
+    dates = get.date_range()
+      
+    for date in dates['date']:
+        if get._check_api_limit():
+            break
+        
+        json_matches = get.get_matches_info(date)
+        print(json_matches)
+        if json_matches["results"] == 0:
+            continue
+        
+        get.save_json(json_matches, "matches_info.json")
+        
+        df_matches = norm.norm_matches_info(json_matches)
+        print(df_matches)
+        
+        df_matches_clean = clean.clean_matches_info(df_matches)
+        print(df_matches_clean)
+        
+        save.matches_info_to_db(df_matches_clean)
+    
+        
+        
     
         
    
