@@ -1,51 +1,20 @@
 import pandas as pd
 
 
-
-
-
-
 class CleanData:
-    """
-    A class that provides methods to clean data.
-    """
-
     def __init__(self):
         pass
 
 
-
-    def clean_countries_info(self, df_countries):
-        """
-        Cleans the countries info dataframe.
-
-        Args:
-            df_countries (pandas.DataFrame): The dataframe containing countries info.
-
-        Returns:
-            pandas.DataFrame: The cleaned dataframe.
-
-        """
+    def countries_info(self, df_countries):
         df_countries_clean = df_countries.copy()             
         df_countries_clean.columns = ['country_' + col for col in df_countries.columns] # Add prefix 'country_' for each column
         df_countries_clean.sort_values(by=['country_name'], ascending=True) # order ascending by country_name
         print("Columns cleaned for: countries info")
-        return df_countries_clean
+        return df_countries_clean    
     
     
-    
-    
-    def clean_venues_info(self, df_venues):
-        """
-        Cleans the venues info dataframe.
-
-        Args:
-            df_venues (pandas.DataFrame): The dataframe containing venues info.
-
-        Returns:
-            pandas.DataFrame: The cleaned dataframe.
-
-        """
+    def venues_info(self, df_venues):
         df_venues_clean = df_venues.copy()
         df_venues_clean.columns = ['venue_' + col for col in df_venues.columns] # Add prefix 'venue_' for each column
         df_venues_clean.drop(columns=['venue_address']) # Drop columns "address"
@@ -54,19 +23,7 @@ class CleanData:
         return df_venues_clean
     
     
-    
-    
-    def clean_leagues_info(self, df_leagues):
-        """
-        Cleans the seasons info dataframe.
-
-        Args:
-            df_seasons (pandas.DataFrame): The dataframe containing seasons info.
-
-        Returns:
-            pandas.DataFrame: The cleaned dataframe.
-
-        """
+    def leagues_info(self, df_leagues):
         df_leagues_clean = df_leagues.copy()
         df_leagues_clean.columns = df_leagues_clean.columns.str.replace(".", "_") # Replace . with _ in column names
         df_leagues_clean.drop(columns=['seasons'], inplace=True) # Drop columns
@@ -74,18 +31,7 @@ class CleanData:
         return df_leagues_clean
     
     
-    
-    def clean_teams_info(self, df_teams):
-        """
-        Cleans the teams info dataframe.
-
-        Args:
-            df_teams (pandas.DataFrame): The dataframe containing teams info.
-
-        Returns:
-            pandas.DataFrame: The cleaned dataframe.
-
-        """
+    def teams_info(self, df_teams):
         df_teams_clean = df_teams.copy()
         df_teams_clean = df_teams_clean.loc[:, ~df_teams_clean.columns.str.startswith('venue_')] # Drop all columns wich title starts with "venue_"
         df_teams_clean.sort_values(by=['team_id'], ascending=False) # sort by team_id descending
@@ -93,18 +39,7 @@ class CleanData:
         return df_teams_clean
     
     
-    
-    
-    def clean_players_info(self, df_players):
-        """
-        Cleans the players' information dataframe by dropping unnecessary columns and sorting by player_id.
-
-        Args:
-            df_players (pandas.DataFrame): The dataframe containing the players' information to be cleaned.
-
-        Returns:
-            df_players_clean (pandas.DataFrame): The cleaned dataframe.
-        """
+    def players_info(self, df_players):
         df_players_clean = df_players.copy()
         df_players_clean = df_players_clean.drop(columns=['statistics', 'player_birth_place', 'player_birth_country']) # Drop columns
         df_players_clean.sort_values(by=['player_id'], ascending=False) # Sort by player_id descending
@@ -112,22 +47,8 @@ class CleanData:
         return df_players_clean
     
     
-    
-    
-    
-    def clean_matches_info(self, df_matches):
-        """
-        Clean the matches information dataframe.
-
-        Args:
-            df_matches (DataFrame): The dataframe containing the matches information.
-
-        Returns:
-            DataFrame: The cleaned dataframe.
-
-        """
+    def matches_info(self, df_matches):
         df_matches_clean = df_matches.copy()
-
         # Rename columns
         df_matches_clean.rename(columns={'goals_home': 'total_goals_home',
                                          'goals_away': 'total_goals_away',

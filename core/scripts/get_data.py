@@ -1,181 +1,171 @@
+import sys
 import os
-import json
-import requests
+import sqlite3
 import pandas as pd
-
-from dotenv import load_dotenv
-load_dotenv()
-
-api_key = os.getenv("RAPIDAPI_KEY")
-api_host = os.getenv("RAPIDAPI_HOST")
+import numpy as np
 
 
+from ..scripts.get_json_data import GetHistoricData
+from ..scripts.norm_data import NormData
+from ..scripts.clean_data import CleanData
+from ..scripts.save_data import SaveDataToDB
 
+get_json=GetHistoricData(2020,10)
+norm=NormData()
+clean=CleanData()
+save=SaveDataToDB()
 
-
-class GetHistoricData:
-    def __init__(self, season, max_api_calls=100):
-        """
-        A class to retrieve and manage historic data.
-
-        Parameters:
-        - season (str): The season for which data is being retrieved.
-        - max_api_calls (int, optional): The maximum number of API calls allowed. Default is 100.
-
-        Attributes:
-        - db_path (str): The path to the database file.
-        - json_path (str): The path to the JSON files.
-        - season (str): The season for which data is being retrieved.
-        - max_api_calls (int): The maximum number of API calls allowed.
-        - api_call_count (int): The current number of API calls made.
-        """
-        self.db_path = "C:/Users/Lavoro/Desktop/AIBetting/AIbetting/core/data/Ai_Betting.db"
-        self.json_path = "C:/Users/Lavoro/Desktop/AIBetting/AIbetting/core/data/json_files"
+class GetData ():
+    def __init__(self, season, api_limit):
         self.season = season
-        self.max_api_calls = max_api_calls
-        self.api_call_count = 0
-
-
-    
-    def date_range(self):
-        """
-        Create a series of dates form start to end of the 2020 year
-        Args:
-            season (str): The season for which data is being retrieved.
-        Returns:
-            pd.Series: A series of dates form start to end of the 2020 year
-        """
-        dates = pd.date_range(start=f"{self.season}-01-01", end=f"{self.season}-12-31", freq="D").to_frame(index=False, name="date") #Create a series of dates form start to end of the 2020 year
-        dates['date'] = pd.to_datetime(dates['date']).dt.date # Covert the date in datetime format
-        return dates
+        self.api_limit = api_limit
+        self.db_path = os.getenv("DB_PATH")
     
     
-    
-    
-    def _check_api_limit(self):
-        """
-        Checks if the API call count has reached the maximum limit. 
-        - If the API call count is greater than or equal to the maximum limit, print a message and return True.
-
-        Returns:
-            bool: True if the API call count has reached the maximum limit, False otherwise.
-        """
-        if self.api_call_count >= self.max_api_calls:
-            print("Reached maximum API call limit")
-            return True
-        return False
-    
-    
-
-
-    def make_api_call(self, url):
-        """
-        Makes an API call to the specified URL and returns the response in JSON format.
-        1- Set the headers for the API call.
-        2- Make the API call using the requests library.
-        3- Check for any exceptions during the API call.
-        4- Return the response in JSON format.
-        5- Increment the API call count.
-        6- Print the number of API calls made.
-        7- Return the response in JSON format if the API call is successful and print a succesfull message.
-        8- Return None if the API call fails with an exception and print an error message.
+    def country_data(self):
+        # 1 chiamata API
+        json_data = get_json.countries_info()
+        normalized_data = norm.countries_info(json_data)
+        cleaned_data = clean.countries_info(normalized_data)
+        save.countries(cleaned_data)
+        print("COUNTRIES INFO SAVED TO DATABASE")
+        return True
         
-        Args:
-            url (str): The URL to make the API call to.
-
-        Returns:
-            dict: The response from the API call in JSON format, or None if the API call fails.
-
-        Raises:
-            requests.exceptions.RequestException: If the API call fails with an exception.
-
-        """        
-        headers = {'x-rapidapi-key': api_key, 'x-rapidapi-host': api_host}
-        try:
-            response = requests.get(url, headers=headers)
-            response.raise_for_status() 
-            print(f"API call done for {url}")
-            self.api_call_count += 1
-            print(f"Number of API calls done: {self.api_call_count}")
-            return response.json()
-        except requests.exceptions.RequestException as e:
-            print(f"ERROR: API call to {url} failed with exception: {e}")
-            return None
-
-
-
-
-    def save_json(self, json_data, file_name):
-        """
-        Saves the JSON data to a file in the specified directory.
         
-        Args:
-            json_data (dict): The JSON data to be saved.
-            file_name (str): The name of the file to save the JSON data to.
+     
+    def venues_data(self):
+        # 1 chiamata API
+        # Prende i dati dei paesi dal database perché vanno dati all'endpoint per la chiamata API
+        conn = sqlite3.connect(self.db_path)
+        countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn)
+        conn.close()
+
+        # Per ogni paese prende i dati degli stadi
+        for country_id in countries['country_name']:
+            json_data = get_json.venues_info(country_id)
+            # save_json(json_data, "venues_info.json")
+            get_json.save_json(json_data, "venues_info.json")
+            
+            normalized_data = norm.venues_info(json_data)
+            cleaned_data = clean.venues_info(normalized_data)
+            save.venues(cleaned_data)
+            print(f"VENUES INFO SAVED TO DATABASE FOR {country_id}")
+
+        # Restituisce True solo dopo aver processato tutti i paesi
+        return True
+            
+    
+    def leagues_data(self):
+        # ... chiamate API
+        # Prende i dati dei paesi dal database perchè vanno dati all' endpoint per la chiamata API
+        conn = sqlite3.connect(self.db_path)
+        countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn)
+        conn.close()
+        # Per ogni paese prende i dati deglle leghe
+        for country_id in countries['country_name']:
+            json_data = get_json.leagues_info(country_id)
+            print(json_data)
+            normalized_data = norm.leagues_info(json_data)
+            print(normalized_data)
+            cleaned_data = clean.leagues_info(normalized_data)
+            print(cleaned_data)
+            save.leagues(cleaned_data)
+            print("LEAGUES INFO SAVED TO DATABASE")
+        return True
         
-        Returns:
-            None
-        """
-        file_path = os.path.join(self.json_path, self.season, file_name)
-        # Create the directory if it does not exist
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        with open(file_path, 'w') as file:
-            json.dump(json_data, file, indent=4)
-        print(f"JSON data saved to file: {file_name}")
-
-
-
-
+        
    
-                
-                
-                
-
-    def get_countries_info(self):
-        url = "https://api-football-v1.p.rapidapi.com/v3/countries"
-        response = self.make_api_call(url)
-        json_countries = response
-        return json_countries
-
-
-
-    def get_venues_info(self, country_id):
-        url = f"https://api-football-v1.p.rapidapi.com/v3/venues?country={country_id}"
-        response = self.make_api_call(url)
-        json_venues = response
-        return json_venues
     
     
     
-    def get_leagues_info(self, country_id):
-        url = f"https://api-football-v1.p.rapidapi.com/v3/leagues/?season={self.season}&country={country_id}"
-        response = self.make_api_call(url)
-        json_leagues = response
-        return json_leagues
+    
+    
+    
+    """
+    # Leagues info
+    conn = sqlite3.connect(db_path) # Connect to the database
+    countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn) # Get the list of countries
+    conn.close()
+    
+    for country_id in countries['country_name']:
+        if get._check_api_limit():  # Controlla se il limite delle chiamate API è stato raggiunto
+            break
+        json_leagues = get.get_leagues_info(country_id)
+        
+        if json_leagues["results"] == 0:
+            continue
+        get.save_json(json_leagues, "leagues_info.json")
+        df_leagues = norm.norm_leagues_info(json_leagues)
+        df_leagues_clean = clean.clean_leagues_info(df_leagues)
+        save.leagues_info_to_db(df_leagues_clean)
+    """
+    
+    
+    """
+    # Teams info
+    conn = sqlite3.connect(db_path) # Connect to the database
+    countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn) # Get the list of leagues   
+    conn.close()
+    
+    for country_id in countries['country_name']:
+        if get._check_api_limit():  # Controlla se il limite delle chiamate API è stato raggiunto
+            break
+        json_teams = get.get_teams_info(country_id)
+        
+        if json_teams["results"] == 0:
+            continue 
+        df_teams = norm.norm_teams_info(json_teams)
+        df_teams_clean = clean.clean_teams_info(df_teams)
+        save.teams_info_to_db(df_teams_clean)
+    """
+    
+    
+    """
+    # Players info
+    conn = sqlite3.connect(db_path) # Connect to the database
+    teams = pd.read_sql_query("SELECT DISTINCT team_id FROM teams_info", conn) # Get the list of teams
+    conn.close()
+    
+    for team_id in teams['team_id']:
+        if get._check_api_limit():
+            break
+        
+        json_players = get.get_players_info(team_id)
+        if json_players["results"] == 0:
+            continue
+        
+        get.save_json(json_players, "players_info.json")
+        
+        df_players = norm.norm_players_info(json_players)
+        
+        df_players_clean = clean.clean_players_info(df_players)
+        
+        save.players_info_to_db(df_players_clean)
+    """
+    
+    """
+    # Matches info  
+    dates = get.date_range()
+      
+    for date in dates['date']:
+        if get._check_api_limit():
+            break
+        
+        json_matches = get.get_matches_info(date)
+        if json_matches["results"] == 0:
+            continue
+        
+        df_matches = norm.norm_matches_info(json_matches)
+        print(df_matches)
+        
+        df_matches_clean = clean.clean_matches_info(df_matches)
+        print(df_matches_clean)
+        
+        save.matches_info_to_db(df_matches_clean)
         
         
-    
-    def get_teams_info(self, country_id):
-        url = f"https://api-football-v1.p.rapidapi.com/v3/teams?country={country_id}"
-        response = self.make_api_call(url)
-        json_teams = response
-        return json_teams
-    
-    
-    def get_players_info(self, team_id):
-        url = f"https://api-football-v1.p.rapidapi.com/v3/players?season={self.season}&team={team_id}"
-        response = self.make_api_call(url)
-        json_players = response
-        return json_players
-
-
-    def get_matches_info(self, date): 
-        url = f"https://api-football-v1.p.rapidapi.com/v3/fixtures?date={date}"
-        response = self.make_api_call(url)
-        json_matches = response
-        return json_matches
-
-
-
-   
-       
+        
+    # Lineups info
+        fixtures = pd.read_sql_query("SELECT DISTINCT fixture_id FROM matches_info", sqlite3.connect(db_path))   
+        
+    """    
