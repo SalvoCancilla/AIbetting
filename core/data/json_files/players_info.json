@@ -1,0 +1,1725 @@
+{
+    "get": "players",
+    "parameters": {
+        "season": "2020",
+        "team": "17945"
+    },
+    "errors": [],
+    "results": 18,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "player": {
+                "id": 282450,
+                "name": "N. Bili\u0107",
+                "firstname": "Noel",
+                "lastname": "Bili\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-01-07",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/282450.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 2,
+                        "minutes": 180,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 292220,
+                "name": "I. Krolo",
+                "firstname": "Ivan",
+                "lastname": "Krolo",
+                "age": 21,
+                "birth": {
+                    "date": "2003-01-23",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/292220.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 0,
+                        "minutes": 15,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 282961,
+                "name": "E. Letaj",
+                "firstname": "Elvis",
+                "lastname": "Letaj",
+                "age": 21,
+                "birth": {
+                    "date": "2003-09-26",
+                    "place": "Karlovac",
+                    "country": "Croatia"
+                },
+                "nationality": "Kosovo",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/282961.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 337460,
+                "name": "M. Brklja\u010da",
+                "firstname": "Marko",
+                "lastname": "Brklja\u010da",
+                "age": 20,
+                "birth": {
+                    "date": "2004-07-15",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/337460.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 0,
+                        "minutes": 15,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 265360,
+                "name": "B. Bari\u0161i\u0107",
+                "firstname": "Bartol",
+                "lastname": "Bari\u0161i\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-01-01",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/265360.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 240,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 3,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 3,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 273794,
+                "name": "M. Katini\u0107",
+                "firstname": "Maro",
+                "lastname": "Katini\u0107",
+                "age": 20,
+                "birth": {
+                    "date": "2004-04-13",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/273794.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 270,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 358651,
+                "name": "V. Kani\u017eaj",
+                "firstname": "Viktor",
+                "lastname": "Kani\u017eaj",
+                "age": 21,
+                "birth": {
+                    "date": "2003-02-02",
+                    "place": "\u010cakovec",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/358651.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 251,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 2,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 277982,
+                "name": "F. Koli\u0107",
+                "firstname": "Franko",
+                "lastname": "Koli\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-02-07",
+                    "place": "Pula",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/277982.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 1,
+                        "minutes": 90,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 270203,
+                "name": "I. \u0106ubeli\u0107",
+                "firstname": "Ivan",
+                "lastname": "\u0106ubeli\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-06-02",
+                    "place": "Split",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/270203.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 255,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 2,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 366654,
+                "name": "M. Novak-Stanko",
+                "firstname": "Marko",
+                "lastname": "Novak-Stanko",
+                "age": 21,
+                "birth": {
+                    "date": "2003-06-13",
+                    "place": "Zagreb",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/366654.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 270,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 291873,
+                "name": "I. \u0160arani\u0107",
+                "firstname": "Ivan",
+                "lastname": "\u0160arani\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-05-12",
+                    "place": "Sisak",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": "183 cm",
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/291873.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 244,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 2,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 198393,
+                "name": "T. Duvnjak",
+                "firstname": "Tomislav",
+                "lastname": "Duvnjak",
+                "age": 21,
+                "birth": {
+                    "date": "2003-02-05",
+                    "place": "Zagreb",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/198393.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 270,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 316163,
+                "name": "D. Braun",
+                "firstname": "Dominik",
+                "lastname": "Braun",
+                "age": 21,
+                "birth": {
+                    "date": "2003-12-03",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/316163.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 270,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 288320,
+                "name": "M. Zadro",
+                "firstname": "Mislav",
+                "lastname": "Zadro",
+                "age": 21,
+                "birth": {
+                    "date": "2003-04-22",
+                    "place": null,
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/288320.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 2,
+                        "minutes": 180,
+                        "number": null,
+                        "position": "Goalkeeper",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 310700,
+                "name": "A. Crnac",
+                "firstname": "Ante",
+                "lastname": "Crnac",
+                "age": 21,
+                "birth": {
+                    "date": "2003-12-17",
+                    "place": "Kutina",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": "189 cm",
+                "weight": "83 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/310700.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 1,
+                        "minutes": 83,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 1,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 271066,
+                "name": "R. \u0160imi\u0107",
+                "firstname": "Roko",
+                "lastname": "\u0160imi\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-09-10",
+                    "place": "Milano",
+                    "country": "Italy"
+                },
+                "nationality": "Croatia",
+                "height": "190 cm",
+                "weight": "80 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/271066.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 0,
+                        "minutes": 30,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 3,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 395192,
+                "name": "F. Pobi",
+                "firstname": "Filip",
+                "lastname": "Pobi",
+                "age": 21,
+                "birth": {
+                    "date": "2003-08-15",
+                    "place": "Zagreb",
+                    "country": "Croatia"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/395192.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 1,
+                        "minutes": 146,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 1,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 348020,
+                "name": "L. Petrovi\u0107",
+                "firstname": "Leonardo",
+                "lastname": "Petrovi\u0107",
+                "age": 21,
+                "birth": {
+                    "date": "2003-03-18",
+                    "place": "Ljubu\u0161ki",
+                    "country": "Bosnia and Herzegovina"
+                },
+                "nationality": "Croatia",
+                "height": null,
+                "weight": null,
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/348020.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 17945,
+                        "name": "Croatia U17",
+                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "UEFA U17 Championship",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 0,
+                        "minutes": 26,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 0,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}

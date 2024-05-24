@@ -1,0 +1,52 @@
+{
+    "get": "leagues",
+    "parameters": {
+        "country": "Zambia",
+        "season": "2020"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "league": {
+                "id": 400,
+                "name": "Super League",
+                "type": "League",
+                "logo": "https://media.api-sports.io/football/leagues/400.png"
+            },
+            "country": {
+                "name": "Zambia",
+                "code": "ZM",
+                "flag": "https://media.api-sports.io/flags/zm.svg"
+            },
+            "seasons": [
+                {
+                    "year": 2020,
+                    "start": "2020-10-30",
+                    "end": "2021-06-27",
+                    "current": false,
+                    "coverage": {
+                        "fixtures": {
+                            "events": true,
+                            "lineups": false,
+                            "statistics_fixtures": false,
+                            "statistics_players": false
+                        },
+                        "standings": true,
+                        "players": false,
+                        "top_scorers": false,
+                        "top_assists": false,
+                        "top_cards": false,
+                        "injuries": false,
+                        "predictions": true,
+                        "odds": false
+                    }
+                }
+            ]
+        }
+    ]
+}

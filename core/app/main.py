@@ -13,10 +13,8 @@ from ..scripts.get_data import GetData
 
 
 def main():
-    season = "2021"
-    
-    get = GetData(season, api_limit=2000)
-    get.venues_data()
+    get = GetData(season=2020, api_limit=5000)
+    get.players_data()
 
 if __name__ == "__main__":
     main()

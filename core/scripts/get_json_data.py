@@ -11,29 +11,21 @@ api_host = os.getenv("RAPIDAPI_HOST")
 
 
 
-class GetHistoricData:
-    def __init__(self, season, max_api_calls):
+class GetHistoricData():
+    def __init__(self,season):
         self.base_dir = os.getenv("BASE_DIR")
         self.db_path = os.getenv("DB_PATH")
         self.json_path = os.getenv("JSON_PATH")        
-        self.season = season
-        self.max_api_calls = max_api_calls
-        self.api_call_count = 0
         self.api_key = os.getenv("RAPIDAPI_KEY")
         self.api_host = os.getenv("RAPIDAPI_HOST")
+        self.season = season
+        
 
 
     def date_range(self):
         dates = pd.date_range(start=f"{self.season}-01-01", end=f"{self.season}-12-31", freq="D").to_frame(index=False, name="date")
         dates['date'] = pd.to_datetime(dates['date']).dt.date
         return dates
-    
-    
-    def _check_api_limit(self):
-        if self.api_call_count >= self.max_api_calls:
-            print("Reached maximum API call limit")
-            return True
-        return False
     
     
     def fixtrures_no_update(self, table_name=str):
@@ -67,35 +59,35 @@ class GetHistoricData:
         conn.close()
         return data
     
-
+    
+    # Funzione d' appoggio per salvare i dati in un file JSON che posso consultare serapatamente per capire come sono annidati i dati
     def save_json(self, json_data, file_name):
         file_path = os.path.join(self.json_path, file_name)
-        file_path = os.path.normpath(file_path)  # Normalizza il percorso
+        file_path = os.path.normpath(file_path)  
         with open(file_path, 'w') as file:
             json.dump(json_data, file, indent=4)
-        print(f"JSON data saved to file: {file_path}")  # Mostra il percorso normalizzato
+        print(f"JSON data saved to file: {file_path}")  
 
     
     
     def make_api_call(self, url):
-        if not self._check_api_limit():
-            headers = {'x-rapidapi-key': api_key, 'x-rapidapi-host': api_host}
-            try:
-                response = requests.get(url, headers=headers)
-                response.raise_for_status()
-                if not response.content:  # Check if response content is empty
-                    print(f"Empty response for {url}")
-                    return None
-                print(f"API call done for {url}")
-                self.api_call_count += 1
-                print(f"Number of API calls done: {self.api_call_count}")
-                return response.json()
-            except requests.exceptions.RequestException as e:
-                print(f"ERROR: API call to {url} failed with exception: {e}")
-                return None
-        else:
-            print("API call limit reached")
+        headers = {'x-rapidapi-key': api_key, 'x-rapidapi-host': api_host}
+        try:
+            response = requests.get(url, headers=headers)
+            response.raise_for_status()  # Solleva un'eccezione per risposte HTTP errate (es. 400, 500, etc.)
+            print(f"API call done for {url}")
+            # Verifica che la risposta contenga dati JSON validi e non vuoti
+            data = response.json()
+            if data['results'] == 0: 
+                print(f"No valid data available for {url}")
+                return None  # Nessun dato utile, ritorna None
+            return data
+        
+        except requests.exceptions.RequestException as e:
+            print(f"ERROR: API call to {url} failed with exception: {e}")
             return None
+
+
     
     
     def countries_info(self):

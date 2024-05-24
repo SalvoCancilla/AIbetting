@@ -10,114 +10,146 @@ from ..scripts.norm_data import NormData
 from ..scripts.clean_data import CleanData
 from ..scripts.save_data import SaveDataToDB
 
-get_json=GetHistoricData(2020,10)
-norm=NormData()
-clean=CleanData()
-save=SaveDataToDB()
+
+
 
 class GetData ():
     def __init__(self, season, api_limit):
         self.season = season
         self.api_limit = api_limit
+        self.api_call_count = 0
         self.db_path = os.getenv("DB_PATH")
+        self.get_json = GetHistoricData(season=self.season)
+        self.norm = NormData()
+        self.clean = CleanData()
+        self.save = SaveDataToDB()
     
     
-    def country_data(self):
-        # 1 chiamata API
-        json_data = get_json.countries_info()
-        normalized_data = norm.countries_info(json_data)
-        cleaned_data = clean.countries_info(normalized_data)
-        save.countries(cleaned_data)
+    def _check_api_limit(self):
+        if self.api_call_count >= self.api_limit:
+            print("Reached maximum API call limit")
+            return True
+        else:
+            self.api_call_count += 1
+            print(f"API call count: {self.api_call_count}")
+            return False
+    
+    
+    
+    def country_data(self): # 1 api call
+        json_data = self.get_json.countries_info()
+        normalized_data = self.norm.countries_info(json_data)
+        cleaned_data = self.clean.countries_info(normalized_data)
+        self.save.countries(cleaned_data)
         print("COUNTRIES INFO SAVED TO DATABASE")
+        print("\n") 
         return True
         
         
      
-    def venues_data(self):
-        # 1 chiamata API
-        # Prende i dati dei paesi dal database perché vanno dati all'endpoint per la chiamata API
+    def venues_data(self): # 60 api call
         conn = sqlite3.connect(self.db_path)
         countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn)
         conn.close()
 
-        # Per ogni paese prende i dati degli stadi
         for country_id in countries['country_name']:
-            json_data = get_json.venues_info(country_id)
-            # save_json(json_data, "venues_info.json")
-            get_json.save_json(json_data, "venues_info.json")
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break # Interrompe il ciclo se il limite di API è stato raggiunto
             
-            normalized_data = norm.venues_info(json_data)
-            cleaned_data = clean.venues_info(normalized_data)
-            save.venues(cleaned_data)
+            json_data = self.get_json.venues_info(country_id)
+            if json_data is None:
+                print(f"Skipping data processing for {country_id} due to no data.")
+                continue  # Salta al prossimo paese se non ci sono dati
+            
+            self.get_json.save_json(json_data, "venues_info.json")
+            normalized_data = self.norm.venues_info(json_data)
+            cleaned_data = self.clean.venues_info(normalized_data)
+            self.save.venues(cleaned_data)
             print(f"VENUES INFO SAVED TO DATABASE FOR {country_id}")
+            print("\n") 
 
-        # Restituisce True solo dopo aver processato tutti i paesi
         return True
+
             
     
-    def leagues_data(self):
-        # ... chiamate API
-        # Prende i dati dei paesi dal database perchè vanno dati all' endpoint per la chiamata API
+    def leagues_data(self): # 171 api calls
         conn = sqlite3.connect(self.db_path)
         countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn)
         conn.close()
-        # Per ogni paese prende i dati deglle leghe
+
         for country_id in countries['country_name']:
-            json_data = get_json.leagues_info(country_id)
-            print(json_data)
-            normalized_data = norm.leagues_info(json_data)
-            print(normalized_data)
-            cleaned_data = clean.leagues_info(normalized_data)
-            print(cleaned_data)
-            save.leagues(cleaned_data)
-            print("LEAGUES INFO SAVED TO DATABASE")
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+            
+            json_data = self.get_json.leagues_info(country_id)
+            if json_data is None:
+                print(f"Skipping data processing for {country_id} due to no data.")
+                continue
+            
+            self.get_json.save_json(json_data, "leagues_info.json")
+            normalized_data = self.norm.leagues_info(json_data)
+            cleaned_data = self.clean.leagues_info(normalized_data)
+            self.save.leagues(cleaned_data)
+            print(f"LEAGUES INFO SAVED TO DATABASE FOR {country_id}")
+            print("\n")
+            
         return True
         
         
    
+    def teams_data(self): # 171 api calls
+        conn = sqlite3.connect(self.db_path)
+        countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn)
+        conn.close()
+
+        for country_id in countries['country_name']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.teams_info(country_id)
+            if json_data is None:
+                print(f"Skipping data processing for {country_id} due to no data.")
+                continue
+                
+            self.get_json.save_json(json_data, "teams_info.json")
+            normalized_data = self.norm.teams_info(json_data)
+            cleaned_data = self.clean.teams_info(normalized_data)
+            self.save.teams(cleaned_data)
+            print(f"TEAMS INFO SAVED TO DATABASE FOR {country_id}")
+            print("\n")
+                
+        return True
+    
+    
+    def players_data(self):
+        conn = sqlite3.connect(self.db_path)
+        teams = pd.read_sql_query("SELECT DISTINCT team_id FROM teams_info", conn)
+        conn.close()
+
+        for team_id in teams['team_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.players_info(team_id)
+            if json_data is None:
+                print(f"Skipping data processing for {team_id} due to no data.")
+                continue
+                
+            self.get_json.save_json(json_data, "players_info.json")
+            normalized_data = self.norm.players_info(json_data)
+            cleaned_data = self.clean.players_info(normalized_data)
+            self.save.players(cleaned_data)
+            print(f"PLAYERS INFO SAVED TO DATABASE FOR {team_id}")
+            print("\n")
+                
+        return True
     
     
     
-    
-    
-    
-    """
-    # Leagues info
-    conn = sqlite3.connect(db_path) # Connect to the database
-    countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn) # Get the list of countries
-    conn.close()
-    
-    for country_id in countries['country_name']:
-        if get._check_api_limit():  # Controlla se il limite delle chiamate API è stato raggiunto
-            break
-        json_leagues = get.get_leagues_info(country_id)
-        
-        if json_leagues["results"] == 0:
-            continue
-        get.save_json(json_leagues, "leagues_info.json")
-        df_leagues = norm.norm_leagues_info(json_leagues)
-        df_leagues_clean = clean.clean_leagues_info(df_leagues)
-        save.leagues_info_to_db(df_leagues_clean)
-    """
-    
-    
-    """
-    # Teams info
-    conn = sqlite3.connect(db_path) # Connect to the database
-    countries = pd.read_sql_query("SELECT DISTINCT country_name FROM countries_info", conn) # Get the list of leagues   
-    conn.close()
-    
-    for country_id in countries['country_name']:
-        if get._check_api_limit():  # Controlla se il limite delle chiamate API è stato raggiunto
-            break
-        json_teams = get.get_teams_info(country_id)
-        
-        if json_teams["results"] == 0:
-            continue 
-        df_teams = norm.norm_teams_info(json_teams)
-        df_teams_clean = clean.clean_teams_info(df_teams)
-        save.teams_info_to_db(df_teams_clean)
-    """
     
     
     """
