@@ -112,7 +112,7 @@ class CleanData:
     
     def match_statistics_home(self, df_home_stats):
         df_home_stats_clean = df_home_stats.copy()
-        df_home_stats_clean = df_home_stats_clean.pivot(index=['fixture_id', 'home_team_id'], columns='home_type', values='home_value').rest_index() # Unpivoting basing on fixture_id
+        df_home_stats_clean = df_home_stats_clean.pivot(index=['fixture_id', 'home_team_id'], columns='home_type', values='home_value').reset_index() # Unpivoting basing on fixture_id
         df_home_stats_clean.fillna(0, inplace=True) # Fill NaN values with 0
         print("Columns cleaned for: home match statistics")
         return df_home_stats_clean

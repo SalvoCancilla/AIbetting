@@ -203,6 +203,7 @@ class GetData ():
         return True
     
     
+    
     def match_stats_home(self):
         matches = self.get_json.check_db_data(table_name="match_statistics_home", reference_table="matches_info", reference_column="fixture_id")
         
@@ -247,3 +248,5 @@ class GetData ():
             print("\n")
             
         return True
+    
+    

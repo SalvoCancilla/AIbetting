@@ -1,7 +1,7 @@
 {
     "get": "fixtures/statistics",
     "parameters": {
-        "fixture": "157221"
+        "fixture": "157219"
     },
     "errors": [],
     "results": 2,
@@ -12,123 +12,50 @@
     "response": [
         {
             "team": {
-                "id": 71,
-                "name": "Norwich",
-                "logo": "https://media.api-sports.io/football/teams/71.png"
+                "id": 50,
+                "name": "Manchester City",
+                "logo": "https://media.api-sports.io/football/teams/50.png"
             },
             "statistics": [
                 {
                     "type": "Shots on Goal",
-                    "value": 4
-                },
-                {
-                    "type": "Shots off Goal",
-                    "value": 8
-                },
-                {
-                    "type": "Total Shots",
-                    "value": 15
-                },
-                {
-                    "type": "Blocked Shots",
-                    "value": 3
-                },
-                {
-                    "type": "Shots insidebox",
-                    "value": 11
-                },
-                {
-                    "type": "Shots outsidebox",
-                    "value": 4
-                },
-                {
-                    "type": "Fouls",
-                    "value": 12
-                },
-                {
-                    "type": "Corner Kicks",
-                    "value": 2
-                },
-                {
-                    "type": "Offsides",
-                    "value": 2
-                },
-                {
-                    "type": "Ball Possession",
-                    "value": "40%"
-                },
-                {
-                    "type": "Yellow Cards",
-                    "value": 5
-                },
-                {
-                    "type": "Red Cards",
-                    "value": null
-                },
-                {
-                    "type": "Goalkeeper Saves",
-                    "value": 2
-                },
-                {
-                    "type": "Total passes",
-                    "value": 362
-                },
-                {
-                    "type": "Passes accurate",
-                    "value": 292
-                },
-                {
-                    "type": "Passes %",
-                    "value": "81%"
-                }
-            ]
-        },
-        {
-            "team": {
-                "id": 52,
-                "name": "Crystal Palace",
-                "logo": "https://media.api-sports.io/football/teams/52.png"
-            },
-            "statistics": [
-                {
-                    "type": "Shots on Goal",
-                    "value": 3
-                },
-                {
-                    "type": "Shots off Goal",
-                    "value": 4
-                },
-                {
-                    "type": "Total Shots",
-                    "value": 12
-                },
-                {
-                    "type": "Blocked Shots",
-                    "value": 5
-                },
-                {
-                    "type": "Shots insidebox",
                     "value": 7
                 },
                 {
+                    "type": "Shots off Goal",
+                    "value": 7
+                },
+                {
+                    "type": "Total Shots",
+                    "value": 16
+                },
+                {
+                    "type": "Blocked Shots",
+                    "value": 2
+                },
+                {
+                    "type": "Shots insidebox",
+                    "value": 13
+                },
+                {
                     "type": "Shots outsidebox",
-                    "value": 5
+                    "value": 3
                 },
                 {
                     "type": "Fouls",
-                    "value": 9
+                    "value": 11
                 },
                 {
                     "type": "Corner Kicks",
-                    "value": 5
+                    "value": 3
                 },
                 {
                     "type": "Offsides",
-                    "value": 1
+                    "value": 3
                 },
                 {
                     "type": "Ball Possession",
-                    "value": "60%"
+                    "value": "65%"
                 },
                 {
                     "type": "Yellow Cards",
@@ -140,19 +67,92 @@
                 },
                 {
                     "type": "Goalkeeper Saves",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "type": "Total passes",
-                    "value": 521
+                    "value": 777
                 },
                 {
                     "type": "Passes accurate",
-                    "value": 422
+                    "value": 700
                 },
                 {
                     "type": "Passes %",
-                    "value": "81%"
+                    "value": "90%"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": 45,
+                "name": "Everton",
+                "logo": "https://media.api-sports.io/football/teams/45.png"
+            },
+            "statistics": [
+                {
+                    "type": "Shots on Goal",
+                    "value": 2
+                },
+                {
+                    "type": "Shots off Goal",
+                    "value": 3
+                },
+                {
+                    "type": "Total Shots",
+                    "value": 7
+                },
+                {
+                    "type": "Blocked Shots",
+                    "value": 2
+                },
+                {
+                    "type": "Shots insidebox",
+                    "value": 7
+                },
+                {
+                    "type": "Shots outsidebox",
+                    "value": 0
+                },
+                {
+                    "type": "Fouls",
+                    "value": 11
+                },
+                {
+                    "type": "Corner Kicks",
+                    "value": 6
+                },
+                {
+                    "type": "Offsides",
+                    "value": 1
+                },
+                {
+                    "type": "Ball Possession",
+                    "value": "35%"
+                },
+                {
+                    "type": "Yellow Cards",
+                    "value": 4
+                },
+                {
+                    "type": "Red Cards",
+                    "value": null
+                },
+                {
+                    "type": "Goalkeeper Saves",
+                    "value": 5
+                },
+                {
+                    "type": "Total passes",
+                    "value": 401
+                },
+                {
+                    "type": "Passes accurate",
+                    "value": 310
+                },
+                {
+                    "type": "Passes %",
+                    "value": "77%"
                 }
             ]
         }
