@@ -2,61 +2,251 @@
     "get": "players",
     "parameters": {
         "season": "2020",
-        "team": "17945"
+        "team": "3326"
     },
     "errors": [],
-    "results": 18,
+    "results": 20,
     "paging": {
         "current": 1,
-        "total": 1
+        "total": 2
     },
     "response": [
         {
             "player": {
-                "id": 282450,
-                "name": "N. Bili\u0107",
-                "firstname": "Noel",
-                "lastname": "Bili\u0107",
-                "age": 21,
+                "id": 3644,
+                "name": "E. Bakaj",
+                "firstname": "Edvan",
+                "lastname": "Bakaj",
+                "age": 36,
                 "birth": {
-                    "date": "2003-01-07",
-                    "place": null,
-                    "country": "Croatia"
+                    "date": "1987-10-09",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
                 },
-                "nationality": "Croatia",
+                "nationality": "Albania",
                 "height": null,
                 "weight": null,
                 "injured": false,
-                "photo": "https://media.api-sports.io/football/players/282450.png"
+                "photo": "https://media.api-sports.io/football/players/3644.png"
             },
             "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
                     },
                     "games": {
-                        "appearences": 2,
-                        "lineups": 2,
-                        "minutes": 180,
+                        "appearences": 22,
+                        "lineups": 22,
+                        "minutes": 1980,
                         "number": null,
-                        "position": "Attacker",
+                        "position": "Goalkeeper",
                         "rating": null,
                         "captain": false
                     },
                     "substitutes": {
                         "in": 0,
-                        "out": 1,
-                        "bench": 1
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 3748,
+                "name": "Dejvi Bilali",
+                "firstname": "Dejvi",
+                "lastname": "Bilali",
+                "age": 25,
+                "birth": {
+                    "date": "1996-06-15",
+                    "place": "Elbasan",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3748.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 1,
+                        "minutes": 90,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 3781,
+                "name": "Erald Kolgega",
+                "firstname": "Erald",
+                "lastname": "Kolgega",
+                "age": 28,
+                "birth": {
+                    "date": "1994-08-09",
+                    "place": "Fier",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3781.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 23,
+                        "lineups": 23,
+                        "minutes": 1851,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 11,
+                        "bench": 0
                     },
                     "shots": {
                         "total": null,
@@ -92,7 +282,7 @@
                         "committed": null
                     },
                     "cards": {
-                        "yellow": 0,
+                        "yellow": 3,
                         "yellowred": 0,
                         "red": 0
                     },
@@ -103,55 +293,34 @@
                         "missed": null,
                         "saved": null
                     }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 292220,
-                "name": "I. Krolo",
-                "firstname": "Ivan",
-                "lastname": "Krolo",
-                "age": 21,
-                "birth": {
-                    "date": "2003-01-23",
-                    "place": null,
-                    "country": "Croatia"
                 },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/292220.png"
-            },
-            "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
                         "id": null,
-                        "name": "UEFA U17 Championship",
+                        "name": "Cup",
                         "country": null,
                         "logo": null,
                         "flag": null,
-                        "season": "2020"
+                        "season": "2020-2021"
                     },
                     "games": {
-                        "appearences": 2,
-                        "lineups": 0,
-                        "minutes": 15,
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 253,
                         "number": null,
                         "position": "Midfielder",
                         "rating": null,
                         "captain": false
                     },
                     "substitutes": {
-                        "in": 2,
-                        "out": 0,
-                        "bench": 3
+                        "in": 0,
+                        "out": 2,
+                        "bench": 0
                     },
                     "shots": {
                         "total": null,
@@ -187,7 +356,7 @@
                         "committed": null
                     },
                     "cards": {
-                        "yellow": 0,
+                        "yellow": 1,
                         "yellowred": 0,
                         "red": 0
                     },
@@ -203,50 +372,219 @@
         },
         {
             "player": {
-                "id": 282961,
-                "name": "E. Letaj",
-                "firstname": "Elvis",
-                "lastname": "Letaj",
-                "age": 21,
+                "id": 3783,
+                "name": "Ronaldo Ndreu",
+                "firstname": "Ronaldo",
+                "lastname": "Ndreu",
+                "age": 23,
                 "birth": {
-                    "date": "2003-09-26",
-                    "place": "Karlovac",
-                    "country": "Croatia"
+                    "date": "1997-03-08",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
                 },
-                "nationality": "Kosovo",
-                "height": null,
-                "weight": null,
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
                 "injured": false,
-                "photo": "https://media.api-sports.io/football/players/282961.png"
+                "photo": "https://media.api-sports.io/football/players/3783.png"
             },
             "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
                     },
                     "games": {
-                        "appearences": 0,
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 3867,
+                "name": "Elvi Bogdani",
+                "firstname": "Elvi",
+                "lastname": "Bogdani",
+                "age": 26,
+                "birth": {
+                    "date": "1995-10-17",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/3867.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 2,
                         "lineups": 0,
-                        "minutes": 0,
+                        "minutes": 12,
                         "number": null,
                         "position": "Defender",
                         "rating": null,
                         "captain": false
                     },
                     "substitutes": {
-                        "in": 0,
+                        "in": 2,
                         "out": 0,
-                        "bench": 3
+                        "bench": 10
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 0,
+                        "minutes": 15,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 0,
+                        "bench": 2
                     },
                     "shots": {
                         "total": null,
@@ -298,41 +636,210 @@
         },
         {
             "player": {
-                "id": 337460,
-                "name": "M. Brklja\u010da",
-                "firstname": "Marko",
-                "lastname": "Brklja\u010da",
-                "age": 20,
+                "id": 3919,
+                "name": "M. Djidjiwa",
+                "firstname": "Moustapha Enock",
+                "lastname": "Djidjiwa",
+                "age": 28,
                 "birth": {
-                    "date": "2004-07-15",
-                    "place": null,
-                    "country": "Croatia"
+                    "date": "1995-11-07",
+                    "place": "Bertoua",
+                    "country": "Cameroon"
                 },
-                "nationality": "Croatia",
+                "nationality": "Cameroon",
                 "height": null,
                 "weight": null,
                 "injured": false,
-                "photo": "https://media.api-sports.io/football/players/337460.png"
+                "photo": "https://media.api-sports.io/football/players/3919.png"
             },
             "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 20,
+                        "lineups": 12,
+                        "minutes": 1300,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 8,
+                        "out": 7,
+                        "bench": 8
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 9,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 4093,
+                "name": "Klaudio Hyseni",
+                "firstname": "Klaudio",
+                "lastname": "Hyseni",
+                "age": 27,
+                "birth": {
+                    "date": "1994-07-15",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/4093.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 7,
+                        "lineups": 2,
+                        "minutes": 242,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 5,
+                        "out": 0,
+                        "bench": 9
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
                         "id": null,
-                        "name": "UEFA U17 Championship",
+                        "name": "Cup",
                         "country": null,
                         "logo": null,
                         "flag": null,
-                        "season": "2020"
+                        "season": "2020-2021"
                     },
                     "games": {
                         "appearences": 1,
                         "lineups": 0,
-                        "minutes": 15,
+                        "minutes": 66,
                         "number": null,
                         "position": "Midfielder",
                         "rating": null,
@@ -341,6 +848,608 @@
                     "substitutes": {
                         "in": 1,
                         "out": 0,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 4113,
+                "name": "Xhorxhian Bo\u00e7i",
+                "firstname": "Xhorxhian",
+                "lastname": "Bo\u00e7i",
+                "age": 28,
+                "birth": {
+                    "date": "1994-02-14",
+                    "place": "Delvin\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/4113.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 22,
+                        "lineups": 22,
+                        "minutes": 1883,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 4,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 2,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 2,
+                        "lineups": 2,
+                        "minutes": 210,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 4260,
+                "name": "Emiljano Hidri",
+                "firstname": "Emiljano",
+                "lastname": "Hidri",
+                "age": 26,
+                "birth": {
+                    "date": "1996-03-06",
+                    "place": "Pogradec",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/4260.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 16,
+                        "lineups": 16,
+                        "minutes": 1290,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 5,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 3,
+                        "minutes": 270,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 16400,
+                "name": "Jos\u00e9 Andr\u00e9s Salazar Mosquera",
+                "firstname": "Jos\u00e9 Andr\u00e9s",
+                "lastname": "Salazar Mosquera",
+                "age": 25,
+                "birth": {
+                    "date": "1996-05-10",
+                    "place": "Quito",
+                    "country": "Ecuador"
+                },
+                "nationality": "Ecuador",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/16400.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 5,
+                        "lineups": 5,
+                        "minutes": 393,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 2,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 1,
+                        "minutes": 54,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 56854,
+                "name": "Antonio Miccoli",
+                "firstname": "Antonio",
+                "lastname": "Miccoli",
+                "age": 22,
+                "birth": {
+                    "date": "2000-11-30",
+                    "place": "\n    ",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/56854.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 3,
+                        "lineups": 1,
+                        "minutes": 92,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 1,
                         "bench": 3
                     },
                     "shots": {
@@ -388,903 +1497,386 @@
                         "missed": null,
                         "saved": null
                     }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 265360,
-                "name": "B. Bari\u0161i\u0107",
-                "firstname": "Bartol",
-                "lastname": "Bari\u0161i\u0107",
-                "age": 21,
-                "birth": {
-                    "date": "2003-01-01",
-                    "place": null,
-                    "country": "Croatia"
                 },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/265360.png"
-            },
-            "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
                         "id": null,
-                        "name": "UEFA U17 Championship",
+                        "name": "Cup",
                         "country": null,
                         "logo": null,
                         "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 240,
-                        "number": null,
-                        "position": "Attacker",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 3,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 3,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 273794,
-                "name": "M. Katini\u0107",
-                "firstname": "Maro",
-                "lastname": "Katini\u0107",
-                "age": 20,
-                "birth": {
-                    "date": "2004-04-13",
-                    "place": null,
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/273794.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 270,
-                        "number": null,
-                        "position": "Defender",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 0,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 0,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 358651,
-                "name": "V. Kani\u017eaj",
-                "firstname": "Viktor",
-                "lastname": "Kani\u017eaj",
-                "age": 21,
-                "birth": {
-                    "date": "2003-02-02",
-                    "place": "\u010cakovec",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/358651.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 251,
-                        "number": null,
-                        "position": "Attacker",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 2,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 1,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 277982,
-                "name": "F. Koli\u0107",
-                "firstname": "Franko",
-                "lastname": "Koli\u0107",
-                "age": 21,
-                "birth": {
-                    "date": "2003-02-07",
-                    "place": "Pula",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/277982.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 1,
-                        "lineups": 1,
-                        "minutes": 90,
-                        "number": null,
-                        "position": "Goalkeeper",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 0,
-                        "bench": 2
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 0,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 270203,
-                "name": "I. \u0106ubeli\u0107",
-                "firstname": "Ivan",
-                "lastname": "\u0106ubeli\u0107",
-                "age": 21,
-                "birth": {
-                    "date": "2003-06-02",
-                    "place": "Split",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/270203.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 255,
-                        "number": null,
-                        "position": "Midfielder",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 2,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 1,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 366654,
-                "name": "M. Novak-Stanko",
-                "firstname": "Marko",
-                "lastname": "Novak-Stanko",
-                "age": 21,
-                "birth": {
-                    "date": "2003-06-13",
-                    "place": "Zagreb",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/366654.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 270,
-                        "number": null,
-                        "position": "Midfielder",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 0,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 0,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 1,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 291873,
-                "name": "I. \u0160arani\u0107",
-                "firstname": "Ivan",
-                "lastname": "\u0160arani\u0107",
-                "age": 21,
-                "birth": {
-                    "date": "2003-05-12",
-                    "place": "Sisak",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": "183 cm",
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/291873.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 244,
-                        "number": null,
-                        "position": "Midfielder",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 2,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 1,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 1,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 198393,
-                "name": "T. Duvnjak",
-                "firstname": "Tomislav",
-                "lastname": "Duvnjak",
-                "age": 21,
-                "birth": {
-                    "date": "2003-02-05",
-                    "place": "Zagreb",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/198393.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 270,
-                        "number": null,
-                        "position": "Midfielder",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 0,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 1,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 316163,
-                "name": "D. Braun",
-                "firstname": "Dominik",
-                "lastname": "Braun",
-                "age": 21,
-                "birth": {
-                    "date": "2003-12-03",
-                    "place": null,
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/316163.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 3,
-                        "lineups": 3,
-                        "minutes": 270,
-                        "number": null,
-                        "position": "Defender",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 0,
-                        "out": 0,
-                        "bench": 0
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 0,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 288320,
-                "name": "M. Zadro",
-                "firstname": "Mislav",
-                "lastname": "Zadro",
-                "age": 21,
-                "birth": {
-                    "date": "2003-04-22",
-                    "place": null,
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/288320.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
+                        "season": "2020-2021"
                     },
                     "games": {
                         "appearences": 2,
-                        "lineups": 2,
-                        "minutes": 180,
+                        "lineups": 1,
+                        "minutes": 125,
                         "number": null,
-                        "position": "Goalkeeper",
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 1,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 74079,
+                "name": "Flavio Prendi",
+                "firstname": "Flavio",
+                "lastname": "Prendi",
+                "age": 25,
+                "birth": {
+                    "date": "1995-10-12",
+                    "place": "Puk\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/74079.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 147806,
+                "name": "Lorenzo Nuredini",
+                "firstname": "Lorenzo",
+                "lastname": "Nuredini",
+                "age": 20,
+                "birth": {
+                    "date": "2000-11-22",
+                    "place": "\n    ",
+                    "country": "Italy"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/147806.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 159132,
+                "name": "Damiano Pontrelli",
+                "firstname": "Damiano",
+                "lastname": "Pontrelli",
+                "age": 26,
+                "birth": {
+                    "date": "1995-07-07",
+                    "place": "\n    ",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/159132.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 8,
+                        "lineups": 3,
+                        "minutes": 365,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 5,
+                        "out": 3,
+                        "bench": 6
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Attacker",
                         "rating": null,
                         "captain": false
                     },
@@ -1343,49 +1935,408 @@
         },
         {
             "player": {
-                "id": 310700,
-                "name": "A. Crnac",
-                "firstname": "Ante",
-                "lastname": "Crnac",
-                "age": 21,
+                "id": 196503,
+                "name": "Cristiano Dovidio",
+                "firstname": "Cristiano",
+                "lastname": "Dovidio",
+                "age": 23,
                 "birth": {
-                    "date": "2003-12-17",
-                    "place": "Kutina",
-                    "country": "Croatia"
+                    "date": "1997-01-20",
+                    "place": "Roma",
+                    "country": "Italy"
                 },
-                "nationality": "Croatia",
-                "height": "189 cm",
-                "weight": "83 kg",
+                "nationality": "Italy",
+                "height": "\n    ",
+                "weight": "\n    ",
                 "injured": false,
-                "photo": "https://media.api-sports.io/football/players/310700.png"
+                "photo": "https://media.api-sports.io/football/players/196503.png"
             },
             "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
                     },
                     "games": {
-                        "appearences": 3,
-                        "lineups": 1,
-                        "minutes": 83,
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Defender",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 196505,
+                "name": "M. Ortolani",
+                "firstname": "Matteo",
+                "lastname": "Ortolani",
+                "age": 23,
+                "birth": {
+                    "date": "2000-08-15",
+                    "place": "Roma",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "181 cm",
+                "weight": "70 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/196505.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 6,
+                        "lineups": 0,
+                        "minutes": 89,
                         "number": null,
                         "position": "Attacker",
                         "rating": null,
                         "captain": false
                     },
                     "substitutes": {
-                        "in": 2,
-                        "out": 1,
+                        "in": 6,
+                        "out": 0,
+                        "bench": 17
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 1,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 263335,
+                "name": "Kejdi Fixha",
+                "firstname": "Kejdi",
+                "lastname": "Fixha",
+                "age": 20,
+                "birth": {
+                    "date": "2001-02-02",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/263335.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 290533,
+                "name": "Mateo Haxhillari",
+                "firstname": "Mateo",
+                "lastname": "Haxhillari",
+                "age": 22,
+                "birth": {
+                    "date": "2000-12-02",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
+                },
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/290533.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": 1,
+                        "lineups": 0,
+                        "minutes": 10,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 0,
+                        "bench": 14
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 0,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": 0,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": null,
+                        "name": "Cup",
+                        "country": null,
+                        "logo": null,
+                        "flag": null,
+                        "season": "2020-2021"
+                    },
+                    "games": {
+                        "appearences": 0,
+                        "lineups": 0,
+                        "minutes": 0,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 0,
                         "bench": 2
                     },
                     "shots": {
@@ -1438,41 +2389,41 @@
         },
         {
             "player": {
-                "id": 271066,
-                "name": "R. \u0160imi\u0107",
-                "firstname": "Roko",
-                "lastname": "\u0160imi\u0107",
+                "id": 290786,
+                "name": "Mariglen Mhillaj",
+                "firstname": "Mariglen",
+                "lastname": "Mhillaj",
                 "age": 21,
                 "birth": {
-                    "date": "2003-09-10",
-                    "place": "Milano",
-                    "country": "Italy"
+                    "date": "2001-02-21",
+                    "place": "Tiran\u00eb",
+                    "country": "Albania"
                 },
-                "nationality": "Croatia",
-                "height": "190 cm",
-                "weight": "80 kg",
+                "nationality": "Albania",
+                "height": "\n    ",
+                "weight": "\n    ",
                 "injured": false,
-                "photo": "https://media.api-sports.io/football/players/271066.png"
+                "photo": "https://media.api-sports.io/football/players/290786.png"
             },
             "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
                     },
                     "games": {
                         "appearences": 3,
                         "lineups": 0,
-                        "minutes": 30,
+                        "minutes": 24,
                         "number": null,
                         "position": "Attacker",
                         "rating": null,
@@ -1481,102 +2432,7 @@
                     "substitutes": {
                         "in": 3,
                         "out": 0,
-                        "bench": 3
-                    },
-                    "shots": {
-                        "total": null,
-                        "on": null
-                    },
-                    "goals": {
-                        "total": 0,
-                        "conceded": null,
-                        "assists": null,
-                        "saves": null
-                    },
-                    "passes": {
-                        "total": null,
-                        "key": null,
-                        "accuracy": null
-                    },
-                    "tackles": {
-                        "total": null,
-                        "blocks": null,
-                        "interceptions": null
-                    },
-                    "duels": {
-                        "total": null,
-                        "won": null
-                    },
-                    "dribbles": {
-                        "attempts": null,
-                        "success": null,
-                        "past": null
-                    },
-                    "fouls": {
-                        "drawn": null,
-                        "committed": null
-                    },
-                    "cards": {
-                        "yellow": 0,
-                        "yellowred": 0,
-                        "red": 0
-                    },
-                    "penalty": {
-                        "won": null,
-                        "commited": null,
-                        "scored": null,
-                        "missed": null,
-                        "saved": null
-                    }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 395192,
-                "name": "F. Pobi",
-                "firstname": "Filip",
-                "lastname": "Pobi",
-                "age": 21,
-                "birth": {
-                    "date": "2003-08-15",
-                    "place": "Zagreb",
-                    "country": "Croatia"
-                },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/395192.png"
-            },
-            "statistics": [
-                {
-                    "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
-                    },
-                    "league": {
-                        "id": null,
-                        "name": "UEFA U17 Championship",
-                        "country": null,
-                        "logo": null,
-                        "flag": null,
-                        "season": "2020"
-                    },
-                    "games": {
-                        "appearences": 2,
-                        "lineups": 1,
-                        "minutes": 146,
-                        "number": null,
-                        "position": "Defender",
-                        "rating": null,
-                        "captain": false
-                    },
-                    "substitutes": {
-                        "in": 1,
-                        "out": 1,
-                        "bench": 2
+                        "bench": 9
                     },
                     "shots": {
                         "total": null,
@@ -1623,62 +2479,41 @@
                         "missed": null,
                         "saved": null
                     }
-                }
-            ]
-        },
-        {
-            "player": {
-                "id": 348020,
-                "name": "L. Petrovi\u0107",
-                "firstname": "Leonardo",
-                "lastname": "Petrovi\u0107",
-                "age": 21,
-                "birth": {
-                    "date": "2003-03-18",
-                    "place": "Ljubu\u0161ki",
-                    "country": "Bosnia and Herzegovina"
                 },
-                "nationality": "Croatia",
-                "height": null,
-                "weight": null,
-                "injured": false,
-                "photo": "https://media.api-sports.io/football/players/348020.png"
-            },
-            "statistics": [
                 {
                     "team": {
-                        "id": 17945,
-                        "name": "Croatia U17",
-                        "logo": "https://media.api-sports.io/football/teams/17945.png"
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
                     },
                     "league": {
                         "id": null,
-                        "name": "UEFA U17 Championship",
+                        "name": "Cup",
                         "country": null,
                         "logo": null,
                         "flag": null,
-                        "season": "2020"
+                        "season": "2020-2021"
                     },
                     "games": {
-                        "appearences": 2,
+                        "appearences": 1,
                         "lineups": 0,
-                        "minutes": 26,
+                        "minutes": 6,
                         "number": null,
                         "position": "Attacker",
                         "rating": null,
                         "captain": false
                     },
                     "substitutes": {
-                        "in": 2,
+                        "in": 1,
                         "out": 0,
-                        "bench": 3
+                        "bench": 2
                     },
                     "shots": {
                         "total": null,
                         "on": null
                     },
                     "goals": {
-                        "total": 1,
+                        "total": 0,
                         "conceded": null,
                         "assists": null,
                         "saves": null
@@ -1710,6 +2545,101 @@
                         "yellow": 0,
                         "yellowred": 0,
                         "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": null,
+                        "missed": null,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 302965,
+                "name": "Bernardo Makovic",
+                "firstname": "Bernardo",
+                "lastname": "Makovic",
+                "age": 20,
+                "birth": {
+                    "date": "2001-06-17",
+                    "place": "\n    ",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "\n    ",
+                "weight": "\n    ",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/302965.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 3326,
+                        "name": "Dinamo Tirana",
+                        "logo": "https://media.api-sports.io/football/teams/3326.png"
+                    },
+                    "league": {
+                        "id": 311,
+                        "name": "1st Division",
+                        "country": "Albania",
+                        "logo": "https://media.api-sports.io/football/leagues/311.png",
+                        "flag": "https://media.api-sports.io/flags/al.svg",
+                        "season": 2020
+                    },
+                    "games": {
+                        "appearences": null,
+                        "lineups": null,
+                        "minutes": null,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": null,
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": null,
+                        "out": null,
+                        "bench": null
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": null,
+                        "conceded": null,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": null,
+                        "key": null,
+                        "accuracy": null
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": null,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": null
+                    },
+                    "cards": {
+                        "yellow": null,
+                        "yellowred": null,
+                        "red": null
                     },
                     "penalty": {
                         "won": null,

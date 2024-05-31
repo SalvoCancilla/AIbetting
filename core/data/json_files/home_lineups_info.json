@@ -1,0 +1,374 @@
+{
+    "get": "fixtures/lineups",
+    "parameters": {
+        "fixture": "157220"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "team": {
+                "id": 34,
+                "name": "Newcastle",
+                "logo": "https://media.api-sports.io/football/teams/34.png",
+                "colors": null
+            },
+            "coach": {
+                "id": 17,
+                "name": "S. Bruce",
+                "photo": "https://media.api-sports.io/football/coachs/17.png"
+            },
+            "formation": "3-4-2-1",
+            "startXI": [
+                {
+                    "player": {
+                        "id": 18886,
+                        "name": "M. D\u00fabravka",
+                        "number": 1,
+                        "pos": "G",
+                        "grid": "1:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18893,
+                        "name": "F. Fern\u00e1ndez",
+                        "number": 18,
+                        "pos": "D",
+                        "grid": "2:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2806,
+                        "name": "F. Sch\u00e4r",
+                        "number": 5,
+                        "pos": "D",
+                        "grid": "2:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18895,
+                        "name": "F. Lejeune",
+                        "number": 20,
+                        "pos": "D",
+                        "grid": "2:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 1813,
+                        "name": "J. Willems",
+                        "number": 15,
+                        "pos": "M",
+                        "grid": "3:4"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18896,
+                        "name": "Javi Manquillo",
+                        "number": 19,
+                        "pos": "M",
+                        "grid": "3:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18904,
+                        "name": "J. Shelvey",
+                        "number": 8,
+                        "pos": "M",
+                        "grid": "3:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18899,
+                        "name": "I. Hayden",
+                        "number": 14,
+                        "pos": "M",
+                        "grid": "3:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2507,
+                        "name": "M. Almir\u00f3n",
+                        "number": 24,
+                        "pos": "F",
+                        "grid": "4:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18905,
+                        "name": "Y. Muto",
+                        "number": 13,
+                        "pos": "F",
+                        "grid": "4:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 723,
+                        "name": "Joelinton",
+                        "number": 9,
+                        "pos": "F",
+                        "grid": "5:1"
+                    }
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "id": 2855,
+                        "name": "E. Krafth",
+                        "number": 17,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18897,
+                        "name": "D. Yedlin",
+                        "number": 22,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18901,
+                        "name": "S. Longstaff",
+                        "number": 36,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18885,
+                        "name": "K. Darlow",
+                        "number": 26,
+                        "pos": "G",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 3423,
+                        "name": "C. Atsu",
+                        "number": 30,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19166,
+                        "name": "D. Gayle",
+                        "number": 12,
+                        "pos": "F",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18831,
+                        "name": "A. Carroll",
+                        "number": 7,
+                        "pos": "F",
+                        "grid": null
+                    }
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": 46,
+                "name": "Leicester",
+                "logo": "https://media.api-sports.io/football/teams/46.png",
+                "colors": null
+            },
+            "coach": {
+                "id": 15,
+                "name": "B. Rodgers",
+                "photo": "https://media.api-sports.io/football/coachs/15.png"
+            },
+            "formation": "3-1-4-2",
+            "startXI": [
+                {
+                    "player": {
+                        "id": 2728,
+                        "name": "K. Schmeichel",
+                        "number": 1,
+                        "pos": "G",
+                        "grid": "1:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18773,
+                        "name": "C. Fuchs",
+                        "number": 28,
+                        "pos": "D",
+                        "grid": "2:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18772,
+                        "name": "J. Evans",
+                        "number": 6,
+                        "pos": "D",
+                        "grid": "2:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18771,
+                        "name": "Ricardo Pereira",
+                        "number": 21,
+                        "pos": "M",
+                        "grid": "2:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18776,
+                        "name": "\u00c7. S\u00f6y\u00fcnc\u00fc",
+                        "number": 4,
+                        "pos": "D",
+                        "grid": "3:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2933,
+                        "name": "B. Chilwell",
+                        "number": 3,
+                        "pos": "M",
+                        "grid": "4:4"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2926,
+                        "name": "Y. Tielemans",
+                        "number": 8,
+                        "pos": "M",
+                        "grid": "4:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18786,
+                        "name": "W. Ndidi",
+                        "number": 25,
+                        "pos": "M",
+                        "grid": "4:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18784,
+                        "name": "J. Maddison",
+                        "number": 10,
+                        "pos": "M",
+                        "grid": "4:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18906,
+                        "name": "Ayoze P\u00e9rez",
+                        "number": 17,
+                        "pos": "F",
+                        "grid": "5:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2778,
+                        "name": "K. Iheanacho",
+                        "number": 14,
+                        "pos": "F",
+                        "grid": "5:1"
+                    }
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "id": 18781,
+                        "name": "D. Gray",
+                        "number": 7,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18779,
+                        "name": "H. Choudhury",
+                        "number": 20,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18774,
+                        "name": "W. Morgan",
+                        "number": 5,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19760,
+                        "name": "J. Justin",
+                        "number": 2,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18777,
+                        "name": "M. Albrighton",
+                        "number": 11,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18778,
+                        "name": "H. Barnes",
+                        "number": 15,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18146,
+                        "name": "D. Ward",
+                        "number": 12,
+                        "pos": null,
+                        "grid": null
+                    }
+                }
+            ]
+        }
+    ]
+}

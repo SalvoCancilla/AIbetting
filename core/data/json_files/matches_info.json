@@ -1,0 +1,2122 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "date": "2020-01-02"
+    },
+    "errors": [],
+    "results": 31,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 247194,
+                "referee": "R. Mitchenson",
+                "timezone": "UTC",
+                "date": "2020-01-02T08:30:00+00:00",
+                "timestamp": 1577953800,
+                "periods": {
+                    "first": 1577953800,
+                    "second": 1577957400
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Dolphin Stadium",
+                    "city": "Brisbane"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 190,
+                "name": "A-League Women",
+                "country": "Australia",
+                "logo": "https://media.api-sports.io/football/leagues/190.png",
+                "flag": "https://media.api-sports.io/flags/au.svg",
+                "season": 2019,
+                "round": "Regular Season - 8"
+            },
+            "teams": {
+                "home": {
+                    "id": 1973,
+                    "name": "Brisbane Roar FC W",
+                    "logo": "https://media.api-sports.io/football/teams/1973.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 1971,
+                    "name": "Melbourne City W",
+                    "logo": "https://media.api-sports.io/football/teams/1971.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 479096,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T09:15:00+00:00",
+                "timestamp": 1577956500,
+                "periods": {
+                    "first": 1577956500,
+                    "second": 1577960100
+                },
+                "venue": {
+                    "id": 3896,
+                    "name": "Dashrath Rangasala",
+                    "city": "Kathmandu"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 590,
+                "name": "A Division",
+                "country": "Nepal",
+                "logo": "https://media.api-sports.io/football/leagues/590.png",
+                "flag": "https://media.api-sports.io/flags/np.svg",
+                "season": 2019,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 12558,
+                    "name": "Saraswoti Youth",
+                    "logo": "https://media.api-sports.io/football/teams/12558.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 12547,
+                    "name": "Armed Police Force",
+                    "logo": "https://media.api-sports.io/football/teams/12547.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 244649,
+                "referee": "Walid Abdelrazek",
+                "timezone": "UTC",
+                "date": "2020-01-02T12:30:00+00:00",
+                "timestamp": 1577968200,
+                "periods": {
+                    "first": 1577968200,
+                    "second": 1577971800
+                },
+                "venue": {
+                    "id": 10636,
+                    "name": "Haras El Hodoud Stadium",
+                    "city": "Alexandria"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 233,
+                "name": "Premier League",
+                "country": "Egypt",
+                "logo": "https://media.api-sports.io/football/leagues/233.png",
+                "flag": "https://media.api-sports.io/flags/eg.svg",
+                "season": 2019,
+                "round": "Regular Season - 11"
+            },
+            "teams": {
+                "home": {
+                    "id": 1576,
+                    "name": "Haras El Hodood",
+                    "logo": "https://media.api-sports.io/football/teams/1576.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1036,
+                    "name": "Pyramids FC",
+                    "logo": "https://media.api-sports.io/football/teams/1036.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 360947,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T13:00:00+00:00",
+                "timestamp": 1577970000,
+                "periods": {
+                    "first": 1577970000,
+                    "second": 1577973600
+                },
+                "venue": {
+                    "id": 19339,
+                    "name": "Stade De Mechria",
+                    "city": "Mecheria"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 514,
+                "name": "Coupe Nationale",
+                "country": "Algeria",
+                "logo": "https://media.api-sports.io/football/leagues/514.png",
+                "flag": "https://media.api-sports.io/flags/dz.svg",
+                "season": 2019,
+                "round": "Round of 32"
+            },
+            "teams": {
+                "home": {
+                    "id": 10736,
+                    "name": "CR M\u00e9chria",
+                    "logo": "https://media.api-sports.io/football/teams/10736.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 917,
+                    "name": "USM Bel Abbes",
+                    "logo": "https://media.api-sports.io/football/teams/917.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 360948,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T13:00:00+00:00",
+                "timestamp": 1577970000,
+                "periods": {
+                    "first": 1577970000,
+                    "second": 1577973600
+                },
+                "venue": {
+                    "id": 15,
+                    "name": "Stade Mohamed Boumezrag",
+                    "city": "Chlef"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "AET",
+                    "elapsed": 120
+                }
+            },
+            "league": {
+                "id": 514,
+                "name": "Coupe Nationale",
+                "country": "Algeria",
+                "logo": "https://media.api-sports.io/football/leagues/514.png",
+                "flag": "https://media.api-sports.io/flags/dz.svg",
+                "season": 2019,
+                "round": "Round of 32"
+            },
+            "teams": {
+                "home": {
+                    "id": 931,
+                    "name": "ASO Chlef",
+                    "logo": "https://media.api-sports.io/football/teams/931.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 10748,
+                    "name": "IR Boumedfaa",
+                    "logo": "https://media.api-sports.io/football/teams/10748.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 307376,
+                "referee": "Saoud Al Athbah",
+                "timezone": "UTC",
+                "date": "2020-01-02T13:10:00+00:00",
+                "timestamp": 1577970600,
+                "periods": {
+                    "first": 1577970600,
+                    "second": 1577974200
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Saoud Bin Abdulrahman Stadium",
+                    "city": "Al-Wakra"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 305,
+                "name": "Stars League",
+                "country": "Qatar",
+                "logo": "https://media.api-sports.io/football/leagues/305.png",
+                "flag": "https://media.api-sports.io/flags/qa.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2900,
+                    "name": "Al Wakrah",
+                    "logo": "https://media.api-sports.io/football/teams/2900.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2895,
+                    "name": "Al Sadd",
+                    "logo": "https://media.api-sports.io/football/teams/2895.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 360949,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T14:00:00+00:00",
+                "timestamp": 1577973600,
+                "periods": {
+                    "first": 1577973600,
+                    "second": 1577977200
+                },
+                "venue": {
+                    "id": 7,
+                    "name": "Stade du 19 Mai 1956",
+                    "city": "Annaba"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 514,
+                "name": "Coupe Nationale",
+                "country": "Algeria",
+                "logo": "https://media.api-sports.io/football/leagues/514.png",
+                "flag": "https://media.api-sports.io/flags/dz.svg",
+                "season": 2019,
+                "round": "Round of 32"
+            },
+            "teams": {
+                "home": {
+                    "id": 1069,
+                    "name": "USM Annaba",
+                    "logo": "https://media.api-sports.io/football/teams/1069.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 10763,
+                    "name": "Village Moussa",
+                    "logo": "https://media.api-sports.io/football/teams/10763.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 216899,
+                "referee": "Abdulla Ali Al Ajel Al Zaabi",
+                "timezone": "UTC",
+                "date": "2020-01-02T14:15:00+00:00",
+                "timestamp": 1577974500,
+                "periods": {
+                    "first": 1577974500,
+                    "second": 1577978100
+                },
+                "venue": {
+                    "id": 2926,
+                    "name": "Hamdan Bin Rashid Stadium",
+                    "city": "Hatta"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Pro League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2869,
+                    "name": "Hatta SC",
+                    "logo": "https://media.api-sports.io/football/teams/2869.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2873,
+                    "name": "Al-Dhafra",
+                    "logo": "https://media.api-sports.io/football/teams/2873.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 216904,
+                "referee": "Ahmad Salem Khalfan",
+                "timezone": "UTC",
+                "date": "2020-01-02T14:15:00+00:00",
+                "timestamp": 1577974500,
+                "periods": {
+                    "first": 1577974500,
+                    "second": 1577978100
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Zabeel Stadion",
+                    "city": "Dubai"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Pro League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2872,
+                    "name": "Al-Wasl FC",
+                    "logo": "https://media.api-sports.io/football/teams/2872.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2877,
+                    "name": "Baniyas SC",
+                    "logo": "https://media.api-sports.io/football/teams/2877.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 5,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 5,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 244647,
+                "referee": "Mahmoud Nagi",
+                "timezone": "UTC",
+                "date": "2020-01-02T15:00:00+00:00",
+                "timestamp": 1577977200,
+                "periods": {
+                    "first": 1577977200,
+                    "second": 1577980800
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Egyptian Army Stadium",
+                    "city": "Suez"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 233,
+                "name": "Premier League",
+                "country": "Egypt",
+                "logo": "https://media.api-sports.io/football/leagues/233.png",
+                "flag": "https://media.api-sports.io/flags/eg.svg",
+                "season": 2019,
+                "round": "Regular Season - 11"
+            },
+            "teams": {
+                "home": {
+                    "id": 1031,
+                    "name": "AL Masry",
+                    "logo": "https://media.api-sports.io/football/teams/1031.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1044,
+                    "name": "Smouha SC",
+                    "logo": "https://media.api-sports.io/football/teams/1044.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 335998,
+                "referee": "B. Nijhuis",
+                "timezone": "UTC",
+                "date": "2020-01-02T15:00:00+00:00",
+                "timestamp": 1577977200,
+                "periods": {
+                    "first": 1577977200,
+                    "second": 1577980800
+                },
+                "venue": {
+                    "id": 1367,
+                    "name": "Al Majma'ah Sports City Stadium",
+                    "city": "Al Majma'ah"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 504,
+                "name": "King's Cup",
+                "country": "Saudi-Arabia",
+                "logo": "https://media.api-sports.io/football/leagues/504.png",
+                "flag": "https://media.api-sports.io/flags/sa.svg",
+                "season": 2020,
+                "round": "8th Finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 2944,
+                    "name": "Al-Fayha",
+                    "logo": "https://media.api-sports.io/football/teams/2944.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2929,
+                    "name": "Al-Ahli Jeddah",
+                    "logo": "https://media.api-sports.io/football/teams/2929.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 307377,
+                "referee": "Abdulhadi Al Rowaily",
+                "timezone": "UTC",
+                "date": "2020-01-02T15:20:00+00:00",
+                "timestamp": 1577978400,
+                "periods": {
+                    "first": 1577978400,
+                    "second": 1577982000
+                },
+                "venue": {
+                    "id": 1298,
+                    "name": "Hamad bin Khalifa Stadium",
+                    "city": "Doha"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 305,
+                "name": "Stars League",
+                "country": "Qatar",
+                "logo": "https://media.api-sports.io/football/leagues/305.png",
+                "flag": "https://media.api-sports.io/flags/qa.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2896,
+                    "name": "Al Ahli Doha",
+                    "logo": "https://media.api-sports.io/football/teams/2896.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2905,
+                    "name": "Al-Arabi SC",
+                    "logo": "https://media.api-sports.io/football/teams/2905.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 3
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 3
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 360950,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T16:00:00+00:00",
+                "timestamp": 1577980800,
+                "periods": {
+                    "first": 1577980800,
+                    "second": 1577984400
+                },
+                "venue": {
+                    "id": 25,
+                    "name": "Stade Ahmed Zabana",
+                    "city": "Oran"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 514,
+                "name": "Coupe Nationale",
+                "country": "Algeria",
+                "logo": "https://media.api-sports.io/football/leagues/514.png",
+                "flag": "https://media.api-sports.io/flags/dz.svg",
+                "season": 2019,
+                "round": "Round of 32"
+            },
+            "teams": {
+                "home": {
+                    "id": 907,
+                    "name": "MC Oran",
+                    "logo": "https://media.api-sports.io/football/teams/907.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 10746,
+                    "name": "Ghriss",
+                    "logo": "https://media.api-sports.io/football/teams/10746.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 216902,
+                "referee": "Hamad Ali Yousef",
+                "timezone": "UTC",
+                "date": "2020-01-02T16:45:00+00:00",
+                "timestamp": 1577983500,
+                "periods": {
+                    "first": 1577983500,
+                    "second": 1577987100
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Fujairah Club Stadium",
+                    "city": "Fujairah"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Pro League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2880,
+                    "name": "Al Fujairah SC",
+                    "logo": "https://media.api-sports.io/football/teams/2880.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 2879,
+                    "name": "Ajman",
+                    "logo": "https://media.api-sports.io/football/teams/2879.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 216905,
+                "referee": "Ahmed Eisa Mohamed",
+                "timezone": "UTC",
+                "date": "2020-01-02T16:45:00+00:00",
+                "timestamp": 1577983500,
+                "periods": {
+                    "first": 1577983500,
+                    "second": 1577987100
+                },
+                "venue": {
+                    "id": 1600,
+                    "name": "Hazza Bin Zayed Stadium",
+                    "city": "Al Ain"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Pro League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2019,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 2865,
+                    "name": "Al Ain",
+                    "logo": "https://media.api-sports.io/football/teams/2865.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2870,
+                    "name": "Shabab Al Ahli Dubai",
+                    "logo": "https://media.api-sports.io/football/teams/2870.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 335999,
+                "referee": "I. Paja\u010d",
+                "timezone": "UTC",
+                "date": "2020-01-02T16:50:00+00:00",
+                "timestamp": 1577983800,
+                "periods": {
+                    "first": 1577983800,
+                    "second": 1577987400
+                },
+                "venue": {
+                    "id": 10518,
+                    "name": "King Abdulaziz Sports City Stadium",
+                    "city": "Mecca"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "PEN",
+                    "elapsed": 120
+                }
+            },
+            "league": {
+                "id": 504,
+                "name": "King's Cup",
+                "country": "Saudi-Arabia",
+                "logo": "https://media.api-sports.io/football/leagues/504.png",
+                "flag": "https://media.api-sports.io/flags/sa.svg",
+                "season": 2020,
+                "round": "8th Finals"
+            },
+            "teams": {
+                "home": {
+                    "id": 2937,
+                    "name": "Al Wehda Club",
+                    "logo": "https://media.api-sports.io/football/teams/2937.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2935,
+                    "name": "Al-Raed",
+                    "logo": "https://media.api-sports.io/football/teams/2935.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "penalty": {
+                    "home": 4,
+                    "away": 3
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 244646,
+                "referee": "Tarek Sami",
+                "timezone": "UTC",
+                "date": "2020-01-02T17:30:00+00:00",
+                "timestamp": 1577986200,
+                "periods": {
+                    "first": 1577986200,
+                    "second": 1577989800
+                },
+                "venue": {
+                    "id": 477,
+                    "name": "Cairo International Stadium",
+                    "city": "Cairo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 233,
+                "name": "Premier League",
+                "country": "Egypt",
+                "logo": "https://media.api-sports.io/football/leagues/233.png",
+                "flag": "https://media.api-sports.io/flags/eg.svg",
+                "season": 2019,
+                "round": "Regular Season - 11"
+            },
+            "teams": {
+                "home": {
+                    "id": 1040,
+                    "name": "Zamalek SC",
+                    "logo": "https://media.api-sports.io/football/teams/1040.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1048,
+                    "name": "Aswan Sc",
+                    "logo": "https://media.api-sports.io/football/teams/1048.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 310782,
+                "referee": "B. Missoum",
+                "timezone": "UTC",
+                "date": "2020-01-02T17:45:00+00:00",
+                "timestamp": 1577987100,
+                "periods": {
+                    "first": 1577987100,
+                    "second": 1577990700
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stade Omar Hamadi (al-Jaz\u0101\u2019ir (Algiers))",
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 186,
+                "name": "Ligue 1",
+                "country": "Algeria",
+                "logo": "https://media.api-sports.io/football/leagues/186.png",
+                "flag": "https://media.api-sports.io/flags/dz.svg",
+                "season": 2019,
+                "round": "Regular Season - 6"
+            },
+            "teams": {
+                "home": {
+                    "id": 910,
+                    "name": "USM Alger",
+                    "logo": "https://media.api-sports.io/football/teams/910.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 915,
+                    "name": "Paradou AC",
+                    "logo": "https://media.api-sports.io/football/teams/915.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488447,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T17:45:00+00:00",
+                "timestamp": 1577987100,
+                "periods": {
+                    "first": 1577987100,
+                    "second": 1577990700
+                },
+                "venue": {
+                    "id": 20694,
+                    "name": "Est\u00e1dio Municipal Francisco Ribeiro Nogueira",
+                    "city": "Mogi das Cruzes, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13067,
+                    "name": "Uni\u00e3o Mogi U20",
+                    "logo": "https://media.api-sports.io/football/teams/13067.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 13021,
+                    "name": "Juventus U20",
+                    "logo": "https://media.api-sports.io/football/teams/13021.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 239578,
+                "referee": "H. Tamsamani",
+                "timezone": "UTC",
+                "date": "2020-01-02T18:00:00+00:00",
+                "timestamp": 1577988000,
+                "periods": {
+                    "first": 1577988000,
+                    "second": 1577991600
+                },
+                "venue": {
+                    "id": 1111,
+                    "name": "Stade El Massira",
+                    "city": "Safi"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 200,
+                "name": "Botola Pro",
+                "country": "Morocco",
+                "logo": "https://media.api-sports.io/football/leagues/200.png",
+                "flag": "https://media.api-sports.io/flags/ma.svg",
+                "season": 2019,
+                "round": "Regular Season - 8"
+            },
+            "teams": {
+                "home": {
+                    "id": 975,
+                    "name": "Olympique Safi",
+                    "logo": "https://media.api-sports.io/football/teams/975.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 973,
+                    "name": "Hassania Agadir",
+                    "logo": "https://media.api-sports.io/football/teams/973.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 239579,
+                "referee": "K. Sabry",
+                "timezone": "UTC",
+                "date": "2020-01-02T18:00:00+00:00",
+                "timestamp": 1577988000,
+                "periods": {
+                    "first": 1577988000,
+                    "second": 1577991600
+                },
+                "venue": {
+                    "id": 1112,
+                    "name": "Stade Municipal de Berkane",
+                    "city": "Berkane"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 200,
+                "name": "Botola Pro",
+                "country": "Morocco",
+                "logo": "https://media.api-sports.io/football/leagues/200.png",
+                "flag": "https://media.api-sports.io/flags/ma.svg",
+                "season": 2019,
+                "round": "Regular Season - 9"
+            },
+            "teams": {
+                "home": {
+                    "id": 962,
+                    "name": "Renaissance Berkane",
+                    "logo": "https://media.api-sports.io/football/teams/962.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 972,
+                    "name": "Olympique Khouribga",
+                    "logo": "https://media.api-sports.io/football/teams/972.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 239599,
+                "referee": "A. Yaagoubi",
+                "timezone": "UTC",
+                "date": "2020-01-02T18:00:00+00:00",
+                "timestamp": 1577988000,
+                "periods": {
+                    "first": 1577988000,
+                    "second": 1577991600
+                },
+                "venue": {
+                    "id": 1099,
+                    "name": "Stade Mohamed V",
+                    "city": "Casablanca"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 200,
+                "name": "Botola Pro",
+                "country": "Morocco",
+                "logo": "https://media.api-sports.io/football/leagues/200.png",
+                "flag": "https://media.api-sports.io/flags/ma.svg",
+                "season": 2019,
+                "round": "Regular Season - 11"
+            },
+            "teams": {
+                "home": {
+                    "id": 968,
+                    "name": "Wydad AC",
+                    "logo": "https://media.api-sports.io/football/teams/968.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 965,
+                    "name": "Moghreb Tetouan",
+                    "logo": "https://media.api-sports.io/football/teams/965.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 164476,
+                "referee": "D. Whitestone",
+                "timezone": "UTC",
+                "date": "2020-01-02T19:45:00+00:00",
+                "timestamp": 1577994300,
+                "periods": {
+                    "first": 1577994300,
+                    "second": 1577997900
+                },
+                "venue": {
+                    "id": 527,
+                    "name": "Pride Park Stadium",
+                    "city": "Derby"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 40,
+                "name": "Championship",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/40.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2019,
+                "round": "Regular Season - 26"
+            },
+            "teams": {
+                "home": {
+                    "id": 69,
+                    "name": "Derby",
+                    "logo": "https://media.api-sports.io/football/teams/69.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 747,
+                    "name": "Barnsley",
+                    "logo": "https://media.api-sports.io/football/teams/747.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 164484,
+                "referee": "P. Bankes",
+                "timezone": "UTC",
+                "date": "2020-01-02T19:45:00+00:00",
+                "timestamp": 1577994300,
+                "periods": {
+                    "first": 1577994300,
+                    "second": 1577997900
+                },
+                "venue": {
+                    "id": 591,
+                    "name": "Liberty Stadium",
+                    "city": "Swansea"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 40,
+                "name": "Championship",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/40.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2019,
+                "round": "Regular Season - 26"
+            },
+            "teams": {
+                "home": {
+                    "id": 76,
+                    "name": "Swansea",
+                    "logo": "https://media.api-sports.io/football/teams/76.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1335,
+                    "name": "Charlton",
+                    "logo": "https://media.api-sports.io/football/teams/1335.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 157218,
+                "referee": "Paul Tierney, England",
+                "timezone": "UTC",
+                "date": "2020-01-02T20:00:00+00:00",
+                "timestamp": 1577995200,
+                "periods": {
+                    "first": 1577995200,
+                    "second": 1577998800
+                },
+                "venue": {
+                    "id": 550,
+                    "name": "Anfield",
+                    "city": "Liverpool"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2019,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 40,
+                    "name": "Liverpool",
+                    "logo": "https://media.api-sports.io/football/teams/40.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 62,
+                    "name": "Sheffield Utd",
+                    "logo": "https://media.api-sports.io/football/teams/62.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488448,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T20:00:00+00:00",
+                "timestamp": 1577995200,
+                "periods": {
+                    "first": 1577995200,
+                    "second": 1577998800
+                },
+                "venue": {
+                    "id": 5632,
+                    "name": "Est\u00e1dio Municipal Dr. Novelli J\u00fanior",
+                    "city": "Itu, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13016,
+                    "name": "Ituano U20",
+                    "logo": "https://media.api-sports.io/football/teams/13016.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 12980,
+                    "name": "Vilhenense U20",
+                    "logo": "https://media.api-sports.io/football/teams/12980.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488449,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T20:00:00+00:00",
+                "timestamp": 1577995200,
+                "periods": {
+                    "first": 1577995200,
+                    "second": 1577998800
+                },
+                "venue": {
+                    "id": 20694,
+                    "name": "Est\u00e1dio Municipal Francisco Ribeiro Nogueira",
+                    "city": "Mogi das Cruzes, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13142,
+                    "name": "Gr\u00eamio U20",
+                    "logo": "https://media.api-sports.io/football/teams/13142.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 13048,
+                    "name": "Real FC U20",
+                    "logo": "https://media.api-sports.io/football/teams/13048.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488450,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T21:00:00+00:00",
+                "timestamp": 1577998800,
+                "periods": {
+                    "first": 1577998800,
+                    "second": 1578002400
+                },
+                "venue": {
+                    "id": 7062,
+                    "name": "Est\u00e1dio Municipal Frederico Dalmazo",
+                    "city": "Sert\u00e3ozinho, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13057,
+                    "name": "Sert\u00e3ozinho U20",
+                    "logo": "https://media.api-sports.io/football/teams/13057.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 13042,
+                    "name": "Penapolense U20",
+                    "logo": "https://media.api-sports.io/football/teams/13042.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488451,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T22:15:00+00:00",
+                "timestamp": 1578003300,
+                "periods": {
+                    "first": 1578003300,
+                    "second": 1578006900
+                },
+                "venue": {
+                    "id": 5632,
+                    "name": "Est\u00e1dio Municipal Dr. Novelli J\u00fanior",
+                    "city": "Itu, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13008,
+                    "name": "Fluminense U20",
+                    "logo": "https://media.api-sports.io/football/teams/13008.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 13058,
+                    "name": "Socorrense U20",
+                    "logo": "https://media.api-sports.io/football/teams/13058.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 5,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 5,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488452,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T22:15:00+00:00",
+                "timestamp": 1578003300,
+                "periods": {
+                    "first": 1578003300,
+                    "second": 1578006900
+                },
+                "venue": {
+                    "id": 5658,
+                    "name": "Est\u00e1dio Doutor Adhemar de Barros",
+                    "city": "Araraquara, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13006,
+                    "name": "Ferrovi\u00e1ria U20",
+                    "logo": "https://media.api-sports.io/football/teams/13006.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 13043,
+                    "name": "Petrolina U20",
+                    "logo": "https://media.api-sports.io/football/teams/13043.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 488453,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2020-01-02T23:15:00+00:00",
+                "timestamp": 1578006900,
+                "periods": {
+                    "first": 1578006900,
+                    "second": 1578010500
+                },
+                "venue": {
+                    "id": 7062,
+                    "name": "Est\u00e1dio Municipal Frederico Dalmazo",
+                    "city": "Sert\u00e3ozinho, S\u00e3o Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 618,
+                "name": "S\u00e3o Paulo Youth Cup",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/618.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2020,
+                "round": "Group Stage - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 13141,
+                    "name": "Goi\u00e1s U20",
+                    "logo": "https://media.api-sports.io/football/teams/13141.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 12951,
+                    "name": "AD Confian\u00e7a U20",
+                    "logo": "https://media.api-sports.io/football/teams/12951.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        }
+    ]
+}

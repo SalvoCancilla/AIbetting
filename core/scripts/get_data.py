@@ -23,6 +23,7 @@ class GetData ():
         self.norm = NormData()
         self.clean = CleanData()
         self.save = SaveDataToDB()
+        
     
     
     def _check_api_limit(self):
@@ -125,9 +126,7 @@ class GetData ():
     
     
     def players_data(self):
-        conn = sqlite3.connect(self.db_path)
-        teams = pd.read_sql_query("SELECT DISTINCT team_id FROM teams_info", conn)
-        conn.close()
+        teams = self.get_json.check_db_data(table_name="players_info", reference_table="teams_info", reference_column="team_id")
 
         for team_id in teams['team_id']:
             if self._check_api_limit():
@@ -150,54 +149,101 @@ class GetData ():
     
     
     
+    def matches_data(self): #365 api calls
+        dates = self.get_json.date_range()
+        
+        for date in dates['date']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_matches = self.get_json.matches_info(date)
+            if json_matches["results"] == 0:
+                continue
+            
+            self.get_json.save_json(json_matches, "matches_info.json")
+            normalized_data = self.norm.matches_info(json_matches)
+            cleaned_data = self.clean.matches_info(normalized_data)    
+            self.save.matches(cleaned_data)
+            print(f"MATCHES INFO SAVED TO DATABASE FOR {date}")
+            print("\n")
+            
+        return True
     
     
-    """
-    # Players info
-    conn = sqlite3.connect(db_path) # Connect to the database
-    teams = pd.read_sql_query("SELECT DISTINCT team_id FROM teams_info", conn) # Get the list of teams
-    conn.close()
     
-    for team_id in teams['team_id']:
-        if get._check_api_limit():
-            break
-        
-        json_players = get.get_players_info(team_id)
-        if json_players["results"] == 0:
-            continue
-        
-        get.save_json(json_players, "players_info.json")
-        
-        df_players = norm.norm_players_info(json_players)
-        
-        df_players_clean = clean.clean_players_info(df_players)
-        
-        save.players_info_to_db(df_players_clean)
-    """
     
-    """
-    # Matches info  
-    dates = get.date_range()
-      
-    for date in dates['date']:
-        if get._check_api_limit():
-            break
+ 
+    def lineups_data(self):
+        matches_home = self.get_json.check_db_data(table_name="home_lineups_info", reference_table="matches_info", reference_column="fixture_id")
+        matches_away = self.get_json.check_db_data(table_name="away_lineups_info", reference_table="matches_info", reference_column="fixture_id")
         
-        json_matches = get.get_matches_info(date)
-        if json_matches["results"] == 0:
-            continue
+        def process_lineups(matches: pd.DataFrame, lineup_type: str, lineup_info_func: callable, save_func: callable,) -> None:
+            for match_id in matches['fixture_id']:
+                if self._check_api_limit():
+                    print("API call limit reached, stopping further data processing.")
+                    break
+                
+                json_data = self.get_json.lineups_info(match_id)
+                if json_data is None:
+                    print(f"Skipping data processing for {match_id} due to no data.")
+                    continue
+                
+                filename = f"{lineup_type}_lineups_info.json"
+                self.get_json.save_json(json_data, filename)
+                
+                normalized_data = lineup_info_func(json_data)
+                save_func(normalized_data)
+                
+                print(f"{lineup_type.upper()}LINEUPS INFO SAVED TO DATABASE FOR {match_id}\n")
+
+        process_lineups(matches_home, "home", self.norm.home_lineups_info, self.save.home_lineups,)
+        process_lineups(matches_away, "away", self.norm.away_lineups_info, self.save.away_lineups)
         
-        df_matches = norm.norm_matches_info(json_matches)
-        print(df_matches)
+        return True
+    
+    
+    def match_stats_home(self):
+        matches = self.get_json.check_db_data(table_name="match_statistics_home", reference_table="matches_info", reference_column="fixture_id")
         
-        df_matches_clean = clean.clean_matches_info(df_matches)
-        print(df_matches_clean)
+        for match_id in matches['fixture_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.match_statistics(match_id)
+            if json_data is None:
+                print(f"Skipping data processing for {match_id} due to no home data.")
+                continue
+                
+            self.get_json.save_json(json_data, "match_statistics.json")
+            normalized_data = self.norm.match_statistics_home(json_data)
+            print(normalized_data)
+            cleaned_data = self.clean.match_statistics_home(normalized_data)
+            self.save.home_stats(cleaned_data)
+            print("\n")
+            
+        return True
+    
+    
+    
+    def match_stats_away(self):
+        matches = self.get_json.check_db_data(table_name="match_statistics_away", reference_table="matches_info", reference_column="fixture_id")
         
-        save.matches_info_to_db(df_matches_clean)
-        
-        
-        
-    # Lineups info
-        fixtures = pd.read_sql_query("SELECT DISTINCT fixture_id FROM matches_info", sqlite3.connect(db_path))   
-        
-    """    
+        for match_id in matches['fixture_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.match_statistics(match_id)
+            if json_data is None:
+                print(f"Skipping data processing for {match_id} due to no away data.")
+                continue
+                
+            self.get_json.save_json(json_data, "match_statistics.json")
+            normalized_data = self.norm.match_statistics_away(json_data)
+            cleaned_data = self.clean.match_statistics_away(normalized_data)
+            self.save.away_stats(cleaned_data)
+            print("\n")
+            
+        return True

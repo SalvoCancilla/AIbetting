@@ -28,36 +28,69 @@ class GetHistoricData():
         return dates
     
     
-    def fixtrures_no_update(self, table_name=str):
+   
+
+
+   
+
+    def check_db_data(self, table_name, reference_table, reference_column):
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name};")
-        data_info_exists = cursor.fetchone() is not None
-        
-        if data_info_exists:
-            query_teams = f"""
-                CREATE VIEW IF NOT EXISTS view_fixtures_no_{table_name} AS 
-                SELECT fixture_id
-                FROM matches_info
-                WHERE fixture_id NOT IN (SELECT DISTINCT fixture_id FROM {table_name}_info);
-                """
-            print(f"View created from {table_name}_info table")
-        else:
-            query_teams = f"""
-                CREATE VIEW IF NOT EXISTS view_fixtures_no_{table_name} AS 
-                SELECT fixture_id
-                FROM matches_info;
-                """
-            print(f"View created from matches_info table.")
-        
-        cursor.execute(query_teams)
-        conn.commit()
 
-        # Get fixtures without data
-        query_view = f"SELECT fixture_id FROM view_fixtures_no_{table_name}"
-        data = pd.read_sql_query(query_view, conn)
-        conn.close()
+        try:
+            # Verifica se la tabella `table_name` esiste
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}';")
+            data_info_exists = cursor.fetchone() is not None
+
+            # Verifica se la tabella `reference_table` esiste
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name='{reference_table}';")
+            reference_table_exists = cursor.fetchone() is not None
+
+            if not reference_table_exists:
+                raise ValueError(f"La tabella di riferimento {reference_table} non esiste nel database.")
+
+            # Creazione della vista basata sull'esistenza della tabella `table_name`
+            view_name = f"view_fixtures_no_{table_name}"
+            if data_info_exists:
+                query_teams = f"""
+                    CREATE VIEW IF NOT EXISTS {view_name} AS 
+                    SELECT {reference_column}
+                    FROM {reference_table}
+                    WHERE {reference_column} NOT IN (SELECT DISTINCT {reference_column} FROM {table_name});
+                    """
+                print(f"View created from {table_name} table")
+            else:
+                query_teams = f"""
+                    CREATE VIEW IF NOT EXISTS {view_name} AS 
+                    SELECT {reference_column}
+                    FROM {reference_table};
+                    """
+                print(f"View created from {table_name} table.")
+
+            cursor.execute(query_teams)
+            conn.commit()
+
+            # Ottenere i dati dalla vista
+            query_view = f"SELECT {reference_column} FROM {view_name}"
+            data = pd.read_sql_query(query_view, conn)
+
+        except sqlite3.OperationalError as e:
+            print(f"Errore operativo SQLite: {e}")
+            raise e  # Rilancia l'errore dopo averlo stampato per ulteriore gestione
+
+        finally:
+            # Elimina la vista
+            try:
+                cursor.execute(f"DROP VIEW IF EXISTS {view_name};")
+                conn.commit()
+                print(f"View {view_name} dropped")
+            except sqlite3.OperationalError as e:
+                print(f"Errore durante l'eliminazione della vista {view_name}: {e}")
+            finally:
+                conn.close()
+
         return data
+
     
     
     # Funzione d' appoggio per salvare i dati in un file JSON che posso consultare serapatamente per capire come sono annidati i dati
@@ -121,5 +154,12 @@ class GetHistoricData():
 
     
     def lineups_info(self, matches):
-        url = f"https://api-football-v1.p.rapidapi.com/v3/lineups?fixture={matches}"
+        url = f"https://api-football-v1.p.rapidapi.com/v3/fixtures/lineups?fixture={matches}"
         return self.make_api_call(url)
+
+
+    def match_statistics(self, matches):
+        url = f"https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics?fixture={matches}"
+        return self.make_api_call(url)
+    
+ 

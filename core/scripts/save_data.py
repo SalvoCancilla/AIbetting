@@ -45,3 +45,19 @@ class SaveDataToDB:
 
     def matches(self, df_matches_clean):
         self._save_data_to_db(df_matches_clean, "matches_info")
+        
+    def home_lineups(self, lineups_home_norm):
+        self._save_data_to_db(lineups_home_norm, "home_lineups_info")
+    
+    
+    def away_lineups(self, lineups_away_norm):
+        self._save_data_to_db(lineups_away_norm, "away_lineups_info")
+        
+    
+    def home_stats(self, df_home_stats_clean):
+        self._save_data_to_db(df_home_stats_clean, "match_statistics_home")
+        
+    
+    def away_stats(self, df_away_stats_clean):
+        self._save_data_to_db(df_away_stats_clean, "match_statistics_away")
+        
