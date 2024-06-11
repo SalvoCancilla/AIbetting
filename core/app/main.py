@@ -13,8 +13,8 @@ from ..scripts.get_data import GetData
 
 
 def main():
-    get = GetData(season=2020, api_limit=2)
-    get.all_match_stats() 
+    get = GetData(season=2020, api_limit=2500)
+    get.home_match_stats_data() 
         
     
 

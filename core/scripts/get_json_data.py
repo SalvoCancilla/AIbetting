@@ -162,4 +162,9 @@ class GetHistoricData():
         url = f"https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics?fixture={matches}"
         return self.make_api_call(url)
     
+    
+    def standings_info(self, league_id):
+        url = f"https://api-football-v1.p.rapidapi.com/v3/standings?&league={league_id}&season={self.season}"
+        return self.make_api_call(url)
+ 
  

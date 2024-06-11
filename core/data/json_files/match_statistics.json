@@ -1,7 +1,7 @@
 {
     "get": "fixtures/statistics",
     "parameters": {
-        "fixture": "157219"
+        "fixture": "232696"
     },
     "errors": [],
     "results": 2,
@@ -12,30 +12,30 @@
     "response": [
         {
             "team": {
-                "id": 50,
-                "name": "Manchester City",
-                "logo": "https://media.api-sports.io/football/teams/50.png"
+                "id": 518,
+                "name": "Brescia",
+                "logo": "https://media.api-sports.io/football/teams/518.png"
             },
             "statistics": [
                 {
                     "type": "Shots on Goal",
-                    "value": 7
+                    "value": 3
                 },
                 {
                     "type": "Shots off Goal",
-                    "value": 7
-                },
-                {
-                    "type": "Total Shots",
-                    "value": 16
-                },
-                {
-                    "type": "Blocked Shots",
                     "value": 2
                 },
                 {
+                    "type": "Total Shots",
+                    "value": 6
+                },
+                {
+                    "type": "Blocked Shots",
+                    "value": 1
+                },
+                {
                     "type": "Shots insidebox",
-                    "value": 13
+                    "value": 3
                 },
                 {
                     "type": "Shots outsidebox",
@@ -47,88 +47,88 @@
                 },
                 {
                     "type": "Corner Kicks",
-                    "value": 3
+                    "value": 2
                 },
                 {
                     "type": "Offsides",
-                    "value": 3
-                },
-                {
-                    "type": "Ball Possession",
-                    "value": "65%"
-                },
-                {
-                    "type": "Yellow Cards",
-                    "value": 0
-                },
-                {
-                    "type": "Red Cards",
-                    "value": null
-                },
-                {
-                    "type": "Goalkeeper Saves",
                     "value": 1
                 },
                 {
+                    "type": "Ball Possession",
+                    "value": "36%"
+                },
+                {
+                    "type": "Yellow Cards",
+                    "value": 5
+                },
+                {
+                    "type": "Red Cards",
+                    "value": 1
+                },
+                {
+                    "type": "Goalkeeper Saves",
+                    "value": 4
+                },
+                {
                     "type": "Total passes",
-                    "value": 777
+                    "value": 326
                 },
                 {
                     "type": "Passes accurate",
-                    "value": 700
+                    "value": 249
                 },
                 {
                     "type": "Passes %",
-                    "value": "90%"
+                    "value": "76%"
                 }
             ]
         },
         {
             "team": {
-                "id": 45,
-                "name": "Everton",
-                "logo": "https://media.api-sports.io/football/teams/45.png"
+                "id": 487,
+                "name": "Lazio",
+                "logo": "https://media.api-sports.io/football/teams/487.png"
             },
             "statistics": [
                 {
                     "type": "Shots on Goal",
-                    "value": 2
-                },
-                {
-                    "type": "Shots off Goal",
-                    "value": 3
-                },
-                {
-                    "type": "Total Shots",
-                    "value": 7
-                },
-                {
-                    "type": "Blocked Shots",
-                    "value": 2
-                },
-                {
-                    "type": "Shots insidebox",
-                    "value": 7
-                },
-                {
-                    "type": "Shots outsidebox",
-                    "value": 0
-                },
-                {
-                    "type": "Fouls",
-                    "value": 11
-                },
-                {
-                    "type": "Corner Kicks",
                     "value": 6
                 },
                 {
+                    "type": "Shots off Goal",
+                    "value": 8
+                },
+                {
+                    "type": "Total Shots",
+                    "value": 19
+                },
+                {
+                    "type": "Blocked Shots",
+                    "value": 5
+                },
+                {
+                    "type": "Shots insidebox",
+                    "value": 14
+                },
+                {
+                    "type": "Shots outsidebox",
+                    "value": 5
+                },
+                {
+                    "type": "Fouls",
+                    "value": 23
+                },
+                {
+                    "type": "Corner Kicks",
+                    "value": 5
+                },
+                {
                     "type": "Offsides",
-                    "value": 1
+                    "value": 2
                 },
                 {
                     "type": "Ball Possession",
-                    "value": "35%"
+                    "value": "64%"
                 },
                 {
                     "type": "Yellow Cards",
@@ -136,23 +136,23 @@
                 },
                 {
                     "type": "Red Cards",
-                    "value": null
+                    "value": 0
                 },
                 {
                     "type": "Goalkeeper Saves",
-                    "value": 5
+                    "value": 2
                 },
                 {
                     "type": "Total passes",
-                    "value": 401
+                    "value": 552
                 },
                 {
                     "type": "Passes accurate",
-                    "value": 310
+                    "value": 485
                 },
                 {
                     "type": "Passes %",
-                    "value": "77%"
+                    "value": "88%"
                 }
             ]
         }

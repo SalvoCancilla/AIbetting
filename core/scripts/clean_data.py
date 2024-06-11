@@ -49,6 +49,7 @@ class CleanData:
     
     def matches_info(self, df_matches):
         df_matches_clean = df_matches.copy()
+        
         # Rename columns
         df_matches_clean.rename(columns={'goals_home': 'total_goals_home',
                                          'goals_away': 'total_goals_away',
@@ -107,12 +108,24 @@ class CleanData:
         print("Columns cleaned for: matches info")
         return df_matches_clean
 
-# Clean lineups logic
+
+    # Logica non funzionante per lineups
+    def home_lineups(self, df_home_lineups):
+        df_home_lineups_clean = df_home_lineups.copy()
+        df_home_lineups_clean = df_home_lineups_clean.pivot(index='fixture_id', columns=None).reset_index()
+        print("Columns cleaned for: home lineups")
+        return df_home_lineups_clean
+        
+    def away_lineups(self, df_away_lineups):
+        df_away_lineups_clean = df_away_lineups.copy()
+        df_away_lineups_clean = df_away_lineups_clean.pivot(index=['fixture_id', 'away_player_id'], columns='away_type', values='away_value').reset_index()
+        print("Columns cleaned for: away lineups")
+        return df_away_lineups_clean
     
     
     def match_statistics_home(self, df_home_stats):
         df_home_stats_clean = df_home_stats.copy()
-        df_home_stats_clean = df_home_stats_clean.pivot(index=['fixture_id', 'home_team_id'], columns='home_type', values='home_value').reset_index() # Unpivoting basing on fixture_id
+        df_home_stats_clean = df_home_stats_clean.pivot(index=['fixture_id', 'home_team_id'], columns='home_type', values='home_value').reset_index() # Pivoting basing on fixture_id adn home_team_id
         df_home_stats_clean.fillna(0, inplace=True) # Fill NaN values with 0
         print("Columns cleaned for: home match statistics")
         return df_home_stats_clean
@@ -120,7 +133,7 @@ class CleanData:
     
     def match_statistics_away(self, df_away_stats):
         df_away_stats_clean = df_away_stats.copy()
-        df_away_stats_clean = df_away_stats_clean.pivot(index=['fixture_id', 'away_team_id'], columns='away_type', values='away_value').reset_index() # Unpivoting basing on fixture_id
+        df_away_stats_clean = df_away_stats_clean.pivot(index=['fixture_id', 'away_team_id'], columns='away_type', values='away_value').reset_index() # Pivoting basing on fixture_id and away_team_id
         df_away_stats_clean.fillna(0, inplace=True) # Fill NaN values with 0
         print("Columns cleaned for: away match statistics")
         return df_away_stats_clean

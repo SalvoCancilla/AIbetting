@@ -1,0 +1,479 @@
+{
+    "get": "standings",
+    "parameters": {
+        "league": "310",
+        "season": "2020"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "league": {
+                "id": 310,
+                "name": "Superliga",
+                "country": "Albania",
+                "logo": "https://media.api-sports.io/football/leagues/310.png",
+                "flag": "https://media.api-sports.io/flags/al.svg",
+                "season": 2020,
+                "standings": [
+                    [
+                        {
+                            "rank": 1,
+                            "team": {
+                                "id": 3320,
+                                "name": "Teuta Durr\u00ebs",
+                                "logo": "https://media.api-sports.io/football/teams/3320.png"
+                            },
+                            "points": 66,
+                            "goalsDiff": 26,
+                            "group": "Superliga",
+                            "form": "WDLWW",
+                            "status": "up",
+                            "description": "UEFA Champions League Qualifiers",
+                            "all": {
+                                "played": 36,
+                                "win": 17,
+                                "draw": 15,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 42,
+                                    "against": 16
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 7,
+                                "draw": 9,
+                                "lose": 2,
+                                "goals": {
+                                    "for": 24,
+                                    "against": 11
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 10,
+                                "draw": 6,
+                                "lose": 2,
+                                "goals": {
+                                    "for": 18,
+                                    "against": 5
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 2,
+                            "team": {
+                                "id": 3339,
+                                "name": "Vllaznia Shkod\u00ebr",
+                                "logo": "https://media.api-sports.io/football/teams/3339.png"
+                            },
+                            "points": 66,
+                            "goalsDiff": 22,
+                            "group": "Superliga",
+                            "form": "WWWWL",
+                            "status": "up",
+                            "description": "UEFA Conference League Qualifiers",
+                            "all": {
+                                "played": 36,
+                                "win": 19,
+                                "draw": 9,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 44,
+                                    "against": 22
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 10,
+                                "draw": 4,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 24,
+                                    "against": 14
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 9,
+                                "draw": 5,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 20,
+                                    "against": 8
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 3,
+                            "team": {
+                                "id": 708,
+                                "name": "Partizani",
+                                "logo": "https://media.api-sports.io/football/teams/708.png"
+                            },
+                            "points": 65,
+                            "goalsDiff": 30,
+                            "group": "Superliga",
+                            "form": "WLWDD",
+                            "status": "down",
+                            "description": "UEFA Conference League Qualifiers",
+                            "all": {
+                                "played": 36,
+                                "win": 17,
+                                "draw": 14,
+                                "lose": 5,
+                                "goals": {
+                                    "for": 53,
+                                    "against": 23
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 8,
+                                "draw": 8,
+                                "lose": 2,
+                                "goals": {
+                                    "for": 24,
+                                    "against": 6
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 9,
+                                "draw": 6,
+                                "lose": 3,
+                                "goals": {
+                                    "for": 29,
+                                    "against": 17
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 4,
+                            "team": {
+                                "id": 2256,
+                                "name": "Laci",
+                                "logo": "https://media.api-sports.io/football/teams/2256.png"
+                            },
+                            "points": 61,
+                            "goalsDiff": 15,
+                            "group": "Superliga",
+                            "form": "LDWDW",
+                            "status": "down",
+                            "description": null,
+                            "all": {
+                                "played": 36,
+                                "win": 16,
+                                "draw": 13,
+                                "lose": 7,
+                                "goals": {
+                                    "for": 41,
+                                    "against": 26
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 9,
+                                "draw": 7,
+                                "lose": 2,
+                                "goals": {
+                                    "for": 27,
+                                    "against": 14
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 7,
+                                "draw": 6,
+                                "lose": 5,
+                                "goals": {
+                                    "for": 14,
+                                    "against": 12
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 5,
+                            "team": {
+                                "id": 694,
+                                "name": "Tirana",
+                                "logo": "https://media.api-sports.io/football/teams/694.png"
+                            },
+                            "points": 58,
+                            "goalsDiff": 15,
+                            "group": "Superliga",
+                            "form": "WDLDW",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 36,
+                                "win": 15,
+                                "draw": 13,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 41,
+                                    "against": 26
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 9,
+                                "draw": 3,
+                                "lose": 6,
+                                "goals": {
+                                    "for": 23,
+                                    "against": 13
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 6,
+                                "draw": 10,
+                                "lose": 2,
+                                "goals": {
+                                    "for": 18,
+                                    "against": 13
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 6,
+                            "team": {
+                                "id": 577,
+                                "name": "FK Kukesi",
+                                "logo": "https://media.api-sports.io/football/teams/577.png"
+                            },
+                            "points": 45,
+                            "goalsDiff": -1,
+                            "group": "Superliga",
+                            "form": "LLWWW",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 36,
+                                "win": 13,
+                                "draw": 6,
+                                "lose": 17,
+                                "goals": {
+                                    "for": 47,
+                                    "against": 48
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 6,
+                                "draw": 3,
+                                "lose": 9,
+                                "goals": {
+                                    "for": 18,
+                                    "against": 23
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 7,
+                                "draw": 3,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 29,
+                                    "against": 25
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 7,
+                            "team": {
+                                "id": 605,
+                                "name": "Skenderbeu Korce",
+                                "logo": "https://media.api-sports.io/football/teams/605.png"
+                            },
+                            "points": 37,
+                            "goalsDiff": -21,
+                            "group": "Superliga",
+                            "form": "LWWDD",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 36,
+                                "win": 9,
+                                "draw": 10,
+                                "lose": 17,
+                                "goals": {
+                                    "for": 34,
+                                    "against": 55
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 4,
+                                "draw": 6,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 18,
+                                    "against": 27
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 5,
+                                "draw": 4,
+                                "lose": 9,
+                                "goals": {
+                                    "for": 16,
+                                    "against": 28
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 8,
+                            "team": {
+                                "id": 3319,
+                                "name": "Kastrioti Kruj\u00eb",
+                                "logo": "https://media.api-sports.io/football/teams/3319.png"
+                            },
+                            "points": 35,
+                            "goalsDiff": -18,
+                            "group": "Superliga",
+                            "form": "WDLLL",
+                            "status": "same",
+                            "description": "Relegation Play-off",
+                            "all": {
+                                "played": 36,
+                                "win": 8,
+                                "draw": 11,
+                                "lose": 17,
+                                "goals": {
+                                    "for": 26,
+                                    "against": 44
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 4,
+                                "draw": 6,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 12,
+                                    "against": 23
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 4,
+                                "draw": 5,
+                                "lose": 9,
+                                "goals": {
+                                    "for": 14,
+                                    "against": 21
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 9,
+                            "team": {
+                                "id": 3325,
+                                "name": "Bylis",
+                                "logo": "https://media.api-sports.io/football/teams/3325.png"
+                            },
+                            "points": 31,
+                            "goalsDiff": -23,
+                            "group": "Superliga",
+                            "form": "LDLLL",
+                            "status": "same",
+                            "description": "Relegation",
+                            "all": {
+                                "played": 36,
+                                "win": 7,
+                                "draw": 10,
+                                "lose": 19,
+                                "goals": {
+                                    "for": 28,
+                                    "against": 51
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 5,
+                                "draw": 6,
+                                "lose": 7,
+                                "goals": {
+                                    "for": 15,
+                                    "against": 20
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 2,
+                                "draw": 4,
+                                "lose": 12,
+                                "goals": {
+                                    "for": 13,
+                                    "against": 31
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 10,
+                            "team": {
+                                "id": 3321,
+                                "name": "Apolonia Fier",
+                                "logo": "https://media.api-sports.io/football/teams/3321.png"
+                            },
+                            "points": 21,
+                            "goalsDiff": -45,
+                            "group": "Superliga",
+                            "form": "LDLLL",
+                            "status": "same",
+                            "description": "Relegation",
+                            "all": {
+                                "played": 36,
+                                "win": 4,
+                                "draw": 9,
+                                "lose": 23,
+                                "goals": {
+                                    "for": 22,
+                                    "against": 67
+                                }
+                            },
+                            "home": {
+                                "played": 18,
+                                "win": 4,
+                                "draw": 3,
+                                "lose": 11,
+                                "goals": {
+                                    "for": 12,
+                                    "against": 30
+                                }
+                            },
+                            "away": {
+                                "played": 18,
+                                "win": 0,
+                                "draw": 6,
+                                "lose": 12,
+                                "goals": {
+                                    "for": 10,
+                                    "against": 37
+                                }
+                            },
+                            "update": "2021-05-26T00:00:00+00:00"
+                        }
+                    ]
+                ]
+            }
+        }
+    ]
+}

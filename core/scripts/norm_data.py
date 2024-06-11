@@ -16,6 +16,9 @@ class NormData:
         print(f"Data normalized for: {data_type} info")
         return pd.DataFrame(normalized_data)
 
+
+
+
     def countries_info(self, json_countries):
         return self.norm_data_info(json_countries, data_type="countries")
 
@@ -39,6 +42,7 @@ class NormData:
     
     
     
+    
     def home_lineups_info(self, json_lineups):
         fixture_id = json_lineups['parameters']['fixture']
         print(f"Fixture ID: {fixture_id}")
@@ -46,11 +50,10 @@ class NormData:
         # Extract home lineup information
         try:
             home_lineup = json_lineups['response'][0]
-            lineups_home = json_normalize(home_lineup)
-            print(lineups_home)
+            json_normalize(home_lineup)  
         except (KeyError, IndexError) as e:
             print(f"Error processing home lineup: {e}")
-            lineups_home = pd.DataFrame()
+            
 
         # Extract startXI information
         try:
@@ -58,7 +61,6 @@ class NormData:
             start_xi = json_normalize(start_xi, sep='_')
             # Add "start" column to indicate player is in starting XI, 1 for True, 0 for False
             start_xi['start'] = 1                      
-            print(start_xi)
         except Exception as e:
             print(f"Error processing start XI: {e}")
             start_xi = pd.DataFrame()
@@ -67,9 +69,7 @@ class NormData:
         try:
             substitutes = home_lineup.get('substitutes', [])
             substitutes = json_normalize(substitutes, sep='_')
-            # Add "sobstitue" column to indicate player is substitute
-            substitutes['substitute'] = 1
-            print(substitutes)
+            substitutes['substitute'] = 1 # Add "sobstitue" column to indicate player is substitute
         except Exception as e:
             print(f"Error processing substitutes: {e}")
             substitutes = pd.DataFrame()
@@ -77,6 +77,7 @@ class NormData:
         lineups_home_norm = pd.concat([start_xi, substitutes], ignore_index=True) # Concatenate start XI and substitutes
         lineups_home_norm['fixture_id'] = fixture_id # Add fixture_id column to identify the fixture
         lineups_home_norm.columns = [f"home_{col}" for col in lineups_home_norm.columns] # Add "home_" prefix to all columns
+        lineups_home_norm.rename(columns={'home_fixture_id': 'fixture_id'}, inplace=True) # Rename home_fixture_id to fixture_id because is a foren key
         lineups_home_norm.fillna(0, inplace=True) # fill NaN values with 0
                  
         return lineups_home_norm
@@ -89,11 +90,9 @@ class NormData:
         # Extract away lineup information
         try:
             away_lineup = json_lineups['response'][1]
-            lineups_away = json_normalize(away_lineup)
-            print(lineups_away)
+            json_normalize(away_lineup)
         except (KeyError, IndexError) as e:
             print(f"Error processing away lineup: {e}")
-            lineups_away = pd.DataFrame()
 
         # Extract startXI information
         try:
@@ -101,7 +100,6 @@ class NormData:
             start_xi = json_normalize(start_xi, sep='_')
             # Add "start" column to indicate player is in starting XI, 1 for True, 0 for False
             start_xi['start'] = 1                      
-            print(start_xi)
         except Exception as e:
             print(f"Error processing start XI: {e}")
             start_xi = pd.DataFrame()
@@ -112,15 +110,15 @@ class NormData:
             substitutes = json_normalize(substitutes, sep='_')
             # Add "sobstitue" column to indicate player is substitute
             substitutes['substitute'] = 1
-            print(substitutes)
         except Exception as e:
             print(f"Error processing substitutes: {e}")
             substitutes = pd.DataFrame()
             
-        lineups_away_norm = pd.concat([start_xi, substitutes], ignore_index=True)
-        lineups_away_norm['fixture_id'] = fixture_id
-        lineups_away_norm.columns = [f"away_{col}" for col in lineups_away_norm.columns]
-        lineups_away_norm.fillna(0, inplace=True)
+        lineups_away_norm = pd.concat([start_xi, substitutes], ignore_index=True) # Concatenate start XI and substitutes
+        lineups_away_norm['fixture_id'] = fixture_id # Add fixture_id column to identify the fixture
+        lineups_away_norm.columns = [f"away_{col}" for col in lineups_away_norm.columns] # Add "away_" prefix to all columns
+        lineups_away_norm.rename(columns={'away_fixture_id': 'fixture_id'}, inplace=True) # Reaname away_fixture_id to fixture_id because is a foren key
+        lineups_away_norm.fillna(0, inplace=True) # fill NaN values with 0
         
         return lineups_away_norm
     
@@ -129,7 +127,6 @@ class NormData:
         fixture_id = json_match_statistics['parameters']['fixture']
         print(f"Fixture ID: {fixture_id}")
         
-        # Extract home team statistics
         try:
             home_stats = json_match_statistics['response'][0]['statistics']
             home_stats = json_normalize(home_stats)
@@ -137,7 +134,6 @@ class NormData:
             home_stats['team_id'] = json_match_statistics['response'][0]['team']['id'] # Add team_id column to identify the team
             home_stats.columns = [f"home_{col}" for col in home_stats.columns] # Add "home_" prefix to all columns
             home_stats.rename(columns={'home_fixture_id': 'fixture_id'}, inplace=True) # Rename home_fixture_id to fixture_id because is a foren key
-            print(home_stats)
         except (KeyError, IndexError) as e:
             print(f"Error processing home team statistics: {e}")
             home_stats = pd.DataFrame()
@@ -149,7 +145,6 @@ class NormData:
         fixture_id = json_match_statistics['parameters']['fixture']
         print(f"Fixture ID: {fixture_id}")
         
-        # Extract away team statistics
         try:
             away_stats = json_match_statistics['response'][1]['statistics']
             away_stats = json_normalize(away_stats)
@@ -157,9 +152,22 @@ class NormData:
             away_stats['team_id'] = json_match_statistics['response'][1]['team']['id'] # Add team_id column to identify the team
             away_stats.columns = [f"away_{col}" for col in away_stats.columns] # Add "away_" prefix to all columns
             away_stats.rename(columns={'away_fixture_id': 'fixture_id'}, inplace=True) # rename home_fixture_id to fixture_id because is a foren key
-            print(away_stats)
         except (KeyError, IndexError) as e:
             print(f"Error processing away team statistics: {e}")
             away_stats = pd.DataFrame()
             
         return away_stats
+    
+    
+    def standings_info(self, json_standings):
+        
+        
+        try:
+            standings = pd.json_normalize(json_standings['response'],record_path=['league', 'standings'], meta=[['league', 'id'],['league', 'season']],sep='_')
+        except (KeyError, IndexError) as e:
+            print(f"Error processing standings: {e}")
+            standings = pd.DataFrame()
+            
+        return standings
+        
+   

@@ -174,37 +174,51 @@ class GetData ():
     
     
  
-    def lineups_data(self):
-        matches_home = self.get_json.check_db_data(table_name="home_lineups_info", reference_table="matches_info", reference_column="fixture_id")
-        matches_away = self.get_json.check_db_data(table_name="away_lineups_info", reference_table="matches_info", reference_column="fixture_id")
+    def home_lineups_data(self):
+        matches = self.get_json.check_db_data(table_name="home_lineups_info", reference_table="matches_info", reference_column="fixture_id")
         
-        def process_lineups(matches: pd.DataFrame, lineup_type: str, lineup_info_func: callable, save_func: callable,) -> None:
-            for match_id in matches['fixture_id']:
-                if self._check_api_limit():
-                    print("API call limit reached, stopping further data processing.")
-                    break
+        for match_id in matches['fixture_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
                 
-                json_data = self.get_json.lineups_info(match_id)
-                if json_data is None:
-                    print(f"Skipping data processing for {match_id} due to no data.")
-                    continue
+            json_data = self.get_json.lineups_info(match_id)
+            if json_data is None:
+                print(f"Skipping data processing for {match_id} due to no home data.")
+                continue
                 
-                filename = f"{lineup_type}_lineups_info.json"
-                self.get_json.save_json(json_data, filename)
-                
-                normalized_data = lineup_info_func(json_data)
-                save_func(normalized_data)
-                
-                print(f"{lineup_type.upper()}LINEUPS INFO SAVED TO DATABASE FOR {match_id}\n")
-
-        process_lineups(matches_home, "home", self.norm.home_lineups_info, self.save.home_lineups,)
-        process_lineups(matches_away, "away", self.norm.away_lineups_info, self.save.away_lineups)
+            self.get_json.save_json(json_data, "lineups_home.json")
+            normalized_data = self.norm.home_lineups_info(json_data)
+            #cleaned_data = self.clean.home_lineups_info(normalized_data)
+            self.save.home_lineups(normalized_data)
+            print("\n")
+            
+        return True
+    
+    def away_lineups_data(self):
+        matches = self.get_json.check_db_data(table_name="away_lineups_info", reference_table="matches_info", reference_column="fixture_id")
         
+        for match_id in matches['fixture_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.lineups_info(match_id)
+            if json_data is None:
+                print(f"Skipping data processing for {match_id} due to no away data.")
+                continue
+                
+            self.get_json.save_json(json_data, "lineups_away.json")
+            normalized_data = self.norm.away_lineups_info(json_data)
+            #cleaned_data = self.clean.away_lineups_info(normalized_data)
+            self.save.away_lineups(normalized_data)
+            print("\n")
+            
         return True
     
     
     
-    def match_stats_home(self):
+    def home_match_stats_data(self):
         matches = self.get_json.check_db_data(table_name="match_statistics_home", reference_table="matches_info", reference_column="fixture_id")
         
         for match_id in matches['fixture_id']:
@@ -228,7 +242,7 @@ class GetData ():
     
     
     
-    def match_stats_away(self):
+    def away_match_stats_data(self):
         matches = self.get_json.check_db_data(table_name="match_statistics_away", reference_table="matches_info", reference_column="fixture_id")
         
         for match_id in matches['fixture_id']:
@@ -245,6 +259,28 @@ class GetData ():
             normalized_data = self.norm.match_statistics_away(json_data)
             cleaned_data = self.clean.match_statistics_away(normalized_data)
             self.save.away_stats(cleaned_data)
+            print("\n")
+            
+        return True
+    
+    
+    def standings_data(self):
+        leagues = self.get_json.check_db_data(table_name="standings_info", reference_table="leagues_info", reference_column="league_id")
+        
+        for league_id in leagues['league_id']:
+            if self._check_api_limit():
+                print("API call limit reached, stopping further data processing.")
+                break
+                
+            json_data = self.get_json.standings_info(league_id)
+            if json_data is None:
+                print(f"Skipping data processing for {league_id} due to no data.")
+                continue
+                
+            self.get_json.save_json(json_data, "standings_info.json")
+            normalized_data = self.norm.standings_info(json_data)
+            #cleaned_data = self.clean.standings_info(normalized_data)
+            self.save.standings(normalized_data)
             print("\n")
             
         return True

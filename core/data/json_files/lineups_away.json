@@ -1,0 +1,374 @@
+{
+    "get": "fixtures/lineups",
+    "parameters": {
+        "fixture": "157221"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "team": {
+                "id": 71,
+                "name": "Norwich",
+                "logo": "https://media.api-sports.io/football/teams/71.png",
+                "colors": null
+            },
+            "coach": {
+                "id": 2,
+                "name": "D. Farke",
+                "photo": "https://media.api-sports.io/football/coachs/2.png"
+            },
+            "formation": "4-2-3-1",
+            "startXI": [
+                {
+                    "player": {
+                        "id": 19061,
+                        "name": "T. Krul",
+                        "number": 1,
+                        "pos": "G",
+                        "grid": "1:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19066,
+                        "name": "G. Hanley",
+                        "number": 5,
+                        "pos": "D",
+                        "grid": "2:4"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19069,
+                        "name": "C. Zimmermann",
+                        "number": 6,
+                        "pos": "D",
+                        "grid": "2:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19287,
+                        "name": "S. Byram",
+                        "number": 3,
+                        "pos": "D",
+                        "grid": "2:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19070,
+                        "name": "M. Aarons",
+                        "number": 2,
+                        "pos": "D",
+                        "grid": "2:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19082,
+                        "name": "M. Vran\u010di\u0107",
+                        "number": 8,
+                        "pos": "M",
+                        "grid": "3:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19079,
+                        "name": "A. Tettey",
+                        "number": 27,
+                        "pos": "M",
+                        "grid": "3:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19077,
+                        "name": "K. McLean",
+                        "number": 23,
+                        "pos": "M",
+                        "grid": "4:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19071,
+                        "name": "E. Buend\u00eda",
+                        "number": 17,
+                        "pos": "M",
+                        "grid": "4:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19072,
+                        "name": "T. Cantwell",
+                        "number": 14,
+                        "pos": "M",
+                        "grid": "4:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19085,
+                        "name": "T. Pukki",
+                        "number": 22,
+                        "pos": "F",
+                        "grid": "5:1"
+                    }
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "id": 19074,
+                        "name": "O. Hern\u00e1ndez",
+                        "number": 11,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19078,
+                        "name": "M. Stiepermann",
+                        "number": 18,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 130417,
+                        "name": "A. Idah",
+                        "number": 35,
+                        "pos": "F",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19076,
+                        "name": "J. Lewis",
+                        "number": 12,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19081,
+                        "name": "T. Trybull",
+                        "number": 19,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 19062,
+                        "name": "M. McGovern",
+                        "number": 33,
+                        "pos": "G",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 2049,
+                        "name": "I. Amadou",
+                        "number": 24,
+                        "pos": "M",
+                        "grid": null
+                    }
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": 52,
+                "name": "Crystal Palace",
+                "logo": "https://media.api-sports.io/football/teams/52.png",
+                "colors": null
+            },
+            "coach": {
+                "id": 9,
+                "name": "R. Hodgson",
+                "photo": "https://media.api-sports.io/football/coachs/9.png"
+            },
+            "formation": "4-5-1",
+            "startXI": [
+                {
+                    "player": {
+                        "id": 18835,
+                        "name": "Guaita",
+                        "number": 31,
+                        "pos": "G",
+                        "grid": "1:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18842,
+                        "name": "M. Sakho",
+                        "number": 12,
+                        "pos": "D",
+                        "grid": "2:4"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18844,
+                        "name": "J. Tomkins",
+                        "number": 5,
+                        "pos": "D",
+                        "grid": "2:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18840,
+                        "name": "M. Kelly",
+                        "number": 34,
+                        "pos": "D",
+                        "grid": "2:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18849,
+                        "name": "J. McArthur",
+                        "number": 18,
+                        "pos": "M",
+                        "grid": "2:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18763,
+                        "name": "J. McCarthy",
+                        "number": 22,
+                        "pos": "M",
+                        "grid": "3:5"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18852,
+                        "name": "L. Milivojevi\u0107",
+                        "number": 4,
+                        "pos": "M",
+                        "grid": "3:4"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18851,
+                        "name": "M. Meyer",
+                        "number": 7,
+                        "pos": "M",
+                        "grid": "3:3"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18853,
+                        "name": "J. Riedewald",
+                        "number": 44,
+                        "pos": "D",
+                        "grid": "3:2"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 3428,
+                        "name": "J. Ayew",
+                        "number": 9,
+                        "pos": "F",
+                        "grid": "3:1"
+                    }
+                },
+                {
+                    "player": {
+                        "id": 3247,
+                        "name": "W. Zaha",
+                        "number": 11,
+                        "pos": "M",
+                        "grid": "4:1"
+                    }
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "id": 2991,
+                        "name": "C. Kouyat\u00e9",
+                        "number": 8,
+                        "pos": "M",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18857,
+                        "name": "C. Wickham",
+                        "number": 21,
+                        "pos": "F",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 199312,
+                        "name": "B. Pierrick",
+                        "number": 40,
+                        "pos": null,
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 90495,
+                        "name": "J. Daly",
+                        "number": 41,
+                        "pos": "F",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18836,
+                        "name": "W. Hennessey",
+                        "number": 13,
+                        "pos": "G",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 18848,
+                        "name": "S. Woods",
+                        "number": 35,
+                        "pos": "D",
+                        "grid": null
+                    }
+                },
+                {
+                    "player": {
+                        "id": 20055,
+                        "name": "N. Kirby",
+                        "number": 37,
+                        "pos": "M",
+                        "grid": null
+                    }
+                }
+            ]
+        }
+    ]
+}
